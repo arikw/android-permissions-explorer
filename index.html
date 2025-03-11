@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Android Permissions Explorer</title>
+    <link rel="icon" href="./favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <h1>Android Permissions Explorer</h1>
+  <p class="explanation">
+    This page displays a comprehensive list of Android permissions along with details such as API level, protection level, and description.
+    Use the filters below to search by permission name or protection level.
+  </p>
+  <div class="filters">
+    <input type="text" id="searchName" placeholder="Filter by permission name..." />
+    <select id="filterProtection">
+      <option value="">All Protection Levels</option>
+      <!-- Additional filter options will be added here -->
+    </select>
+  </div>
+
+  <!-- New results count element -->
+  <div id="resultsCount" style="text-align: center; margin: 20px 0;"></div>
+
+  <table id="permissionsTable" width="50%">
+    <thead>
+      <tr>
+        <th style="width: 300px;">Permission</th>
+        <th style="width: 50px;">API Level</th>
+        <th style="width: 70px;">Protection Level</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody id="permissionsBody">
+      <!-- Rows will be injected here -->
+    </tbody>
+  </table>
+
+  <footer>
+    <p>
+      Explore more on 
+      <a href="https://github.com/arikw/android-permissions-explorer" target="_blank">
+        GitHub
+      </a>
+    </p>
+  </footer>
+  <script type="module" src="./index.js"></script>
+</body>
+</html>

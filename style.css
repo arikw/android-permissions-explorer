@@ -1,0 +1,85 @@
+    /* Global Styles */
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f7f7f7;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+    p.explanation {
+      text-align: center;
+      color: #555;
+      margin: 10px 0 30px;
+      font-size: 16px;
+    }
+    /* Filter Controls */
+    .filters {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-bottom: 20px;
+    }
+    .filters > * {
+      margin: 10px;
+    }
+    input[type="text"],
+    select {
+      padding: 10px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    /* Table Styles */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: #fff;
+      word-break: break-word;
+    }
+    th, td {
+      padding: 12px;
+      border: 1px solid #ddd;
+      text-align: left;
+      vertical-align: top;
+    }
+    th {
+      background-color: #007bff;
+      color: #fff;
+      word-break: normal;
+    }
+    tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+    /* Limit the width of the first column and allow word breaking */
+    th, td {
+      max-width: 140px;
+    }
+    /* Limit the width of the first column and allow word breaking */
+    th:first-child, td:first-child {
+      width: 300px;
+    }
+    td:first-child {
+      word-break: break-word;
+    }
+    /* Ensures newline characters in descriptions are rendered */
+    th:last-child, td:last-child {
+      max-width: unset;
+      width: 300px;
+    }
+    td:last-child {
+      word-break: break-word;
+    }
+    /* Footer Styles */
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 14px;
+      color: #777;
+    }
+    footer a {
+      color: #007bff;
+      text-decoration: none;
+    }

@@ -1,0 +1,2443 @@
+[
+  {
+      "apiLevel": "28",
+      "permissionId": "ACCEPT_HANDOVER",
+      "fullPermissionId": "android.permission.ACCEPT_HANDOVER",
+      "description": "Allows a calling app to continue a call which was started in another app.  An example is a\n video calling app that wants to continue a voice call on the user's mobile network. When the handover of a call from one app to another takes place, there are two devices\n which are involved in the handover; the initiating and receiving devices.  The initiating\n device is where the request to handover the call was started, and the receiving device is\n where the handover request is confirmed by the other party. This permission protects access to the\n TelecomManager.acceptHandover(Uri, int, PhoneAccountHandle) which\n the receiving side of the handover uses to accept a handover.",
+      "protectionLevel": [
+          "dangerous"
+      ]
+  },
+  {
+      "apiLevel": "29",
+      "permissionId": "ACCESS_BACKGROUND_LOCATION",
+      "fullPermissionId": "android.permission.ACCESS_BACKGROUND_LOCATION",
+      "description": "Allows an app to access location in the background. If you're requesting this permission,\n you must also request either ACCESS_COARSE_LOCATION or\n ACCESS_FINE_LOCATION. Requesting this permission by itself doesn't give you\n location access. This is a hard restricted permission which cannot be held by an app until\n the installer on record allowlists the permission. For more details see\n PackageInstaller.SessionParams.setWhitelistedRestrictedPermissions(Set).",
+      "protectionLevel": [
+          "dangerous"
+      ]
+  },
+  {
+      "apiLevel": "1",
+      "permissionId": "ACCESS_COARSE_LOCATION",
+      "fullPermissionId": "android.permission.ACCESS_COARSE_LOCATION",
+      "description": "Allows an app to access approximate location.\n Alternatively, you might want ACCESS_FINE_LOCATION.",
+      "protectionLevel": [
+          "dangerous"
+      ]
+  },
+  {
+      "apiLevel": "1",
+      "permissionId": "ACCESS_FINE_LOCATION",
+      "fullPermissionId": "android.permission.ACCESS_FINE_LOCATION",
+      "description": "Allows an app to access precise location.\n Alternatively, you might want ACCESS_COARSE_LOCATION.",
+      "protectionLevel": [
+          "dangerous"
+      ]
+  },
+  {
+      "apiLevel": "35",
+      "permissionId": "ACCESS_HIDDEN_PROFILES",
+      "fullPermissionId": "android.permission.ACCESS_HIDDEN_PROFILES",
+      "description": "Allows applications to access profiles with\n android.content.pm.UserProperties#PROFILE_API_VISIBILITY_HIDDEN user property, e.g.\n UserManager.USER_TYPE_PROFILE_PRIVATE.",
+      "protectionLevel": [
+          "normal"
+      ]
+  },
+  {
+      "apiLevel": "1",
+      "permissionId": "ACCESS_LOCATION_EXTRA_COMMANDS",
+      "fullPermissionId": "android.permission.ACCESS_LOCATION_EXTRA_COMMANDS",
+      "description": "Allows an application to access extra location provider commands.",
+      "protectionLevel": [
+          "normal"
+      ]
+  },
+  {
+      "apiLevel": "29",
+      "permissionId": "ACCESS_MEDIA_LOCATION",
+      "fullPermissionId": "android.permission.ACCESS_MEDIA_LOCATION",
+      "description": "Allows an application to access any geographic locations persisted in the\n user's shared collection.",
+      "protectionLevel": [
+          "dangerous"
+      ]
+  },
+  {
+      "apiLevel": "1",
+      "permissionId": "ACCESS_NETWORK_STATE",
+      "fullPermissionId": "android.permission.ACCESS_NETWORK_STATE",
+      "description": "Allows applications to access information about networks.",
+      "protectionLevel": [
+          "normal"
+      ]
+  },
+  {
+      "apiLevel": "23",
+      "permissionId": "ACCESS_NOTIFICATION_POLICY",
+      "fullPermissionId": "android.permission.ACCESS_NOTIFICATION_POLICY",
+      "description": "Marker permission for applications that wish to access notification policy. This permission\n is not supported on managed profiles.",
+      "protectionLevel": [
+          "normal"
+      ]
+  },
+  {
+      "apiLevel": "1",
+      "permissionId": "ACCESS_WIFI_STATE",
+      "fullPermissionId": "android.permission.ACCESS_WIFI_STATE",
+      "description": "Allows applications to access information about Wi-Fi networks.",
+      "protectionLevel": [
+          "normal"
+      ]
+  },
+  {
+      "apiLevel": "29",
+      "permissionId": "ACTIVITY_RECOGNITION",
+      "fullPermissionId": "android.permission.ACTIVITY_RECOGNITION",
+      "description": "Allows an application to recognize physical activity.",
+      "protectionLevel": [
+          "dangerous"
+      ]
+  },
+  {
+      "apiLevel": "14",
+      "permissionId": "ADD_VOICEMAIL",
+      "fullPermissionId": "com.android.voicemail.permission.ADD_VOICEMAIL",
+      "description": "Allows an application to add voicemails into the system.",
+      "protectionLevel": [
+          "dangerous"
+      ]
+  },
+  {
+      "apiLevel": "26",
+      "permissionId": "ANSWER_PHONE_CALLS",
+      "fullPermissionId": "android.permission.ANSWER_PHONE_CALLS",
+      "description": "Allows the app to answer an incoming phone call.",
+      "protectionLevel": [
+          "dangerous"
+      ]
+  },
+  {
+      "apiLevel": "1",
+      "permissionId": "BATTERY_STATS",
+      "fullPermissionId": "android.permission.BATTERY_STATS",
+      "description": "Allows an application to collect battery statistics",
+      "protectionLevel": [
+          "signature",
+          "privileged",
+          "development"
+      ]
+  },
+  {
+      "apiLevel": "16",
+      "permissionId": "BIND_ACCESSIBILITY_SERVICE",
+      "fullPermissionId": "android.permission.BIND_ACCESSIBILITY_SERVICE",
+      "description": "Must be required by an AccessibilityService,\n to ensure that only the system can bind to it.",
+      "protectionLevel": [
+          "signature"
+      ]
+  },
+  {
+      "apiLevel": "Baklava",
+      "permissionId": "BIND_APP_FUNCTION_SERVICE",
+      "fullPermissionId": "android.permission.BIND_APP_FUNCTION_SERVICE",
+      "description": "Must be required by an AppFunctionService,\n to ensure that only the system can bind to it.",
+      "protectionLevel": [
+          "signature"
+      ]
+  },
+  {
+      "apiLevel": "26",
+      "permissionId": "BIND_AUTOFILL_SERVICE",
+      "fullPermissionId": "android.permission.BIND_AUTOFILL_SERVICE",
+      "description": "Must be required by a AutofillService,\n to ensure that only the system can bind to it.",
+      "protectionLevel": [
+          "signature"
+      ]
+  },
+  {
+      "apiLevel": "29",
+      "permissionId": "BIND_CALL_REDIRECTION_SERVICE",
+      "fullPermissionId": "android.permission.BIND_CALL_REDIRECTION_SERVICE",
+      "description": "Must be required by a CallRedirectionService,\n to ensure that only the system can bind to it.",
+      "protectionLevel": [
+          "signature",
+          "privileged"
+      ]
+  },
+  {
+      "apiLevel": "29",
+      "permissionId": "BIND_CARRIER_MESSAGING_CLIENT_SERVICE",
+      "fullPermissionId": "android.permission.BIND_CARRIER_MESSAGING_CLIENT_SERVICE",
+      "description": "A subclass of CarrierMessagingClientService must be protected with this permission.",
+      "protectionLevel": [
+          "signature"
+      ]
+  },
+  {
+      "apiLevel": "23",
+      "permissionId": "BIND_CARRIER_SERVICES",
+      "fullPermissionId": "android.permission.BIND_CARRIER_SERVICES",
+      "description": "The system process that is allowed to bind to services in carrier apps will\n have this permission. Carrier apps should use this permission to protect\n their services that only the system is allowed to bind to.",
+      "protectionLevel": [
+          "signature",
+          "privileged"
+      ]
+  },
+  {
+      "apiLevel": "23",
+      "permissionId": "BIND_CHOOSER_TARGET_SERVICE",
+      "fullPermissionId": "android.permission.BIND_CHOOSER_TARGET_SERVICE",
+      "description": "This constant was deprecated\n      in API level 30.\n    For publishing direct share targets, please follow the instructions in\n https://developer.android.com/training/sharing/receive.html#providing-direct-share-targets\n instead. Must be required by a ChooserTargetService, to ensure that\n only the system can bind to it.",
+      "protectionLevel": [
+          "signature"
+      ]
+  },
+  {
+      "apiLevel": "24",
+      "permissionId": "BIND_CONDITION_PROVIDER_SERVICE",
+      "fullPermissionId": "android.permission.BIND_CONDITION_PROVIDER_SERVICE",
+      "description": "Must be required by a ConditionProviderService,\n to ensure that only the system can bind to it.",
+      "protectionLevel": [
+          "signature"
+      ]
+  },
+  {
+      "apiLevel": "34",
+      "permissionId": "BIND_CREDENTIAL_PROVIDER_SERVICE",
+      "fullPermissionId": "android.permission.BIND_CREDENTIAL_PROVIDER_SERVICE",
+      "description": "Must be required by a CredentialProviderService to ensure that only the\n system can bind to it.",
+      "protectionLevel": [
+          "signature"
+      ]
+  },
+  {
+      "apiLevel": "8",
+      "permissionId": "BIND_DEVICE_ADMIN",
+      "fullPermissionId": "android.permission.BIND_DEVICE_ADMIN",
+      "description": "Must be required by device administration receiver, to ensure that only the\n system can interact with it.",
+      "protectionLevel": [
+          "signature"
+      ]
+  },
+  {
+      "apiLevel": "21",
+      "permissionId": "BIND_DREAM_SERVICE",
+      "fullPermissionId": "android.permission.BIND_DREAM_SERVICE",
+      "description": "Must be required by an DreamService,\n to ensure that only the system can bind to it.",
+      "protectionLevel": [
+          "signature"
+      ]
+  },
+  {
+      "apiLevel": "23",
+      "permissionId": "BIND_INCALL_SERVICE",
+      "fullPermissionId": "android.permission.BIND_INCALL_SERVICE",
+      "description": "Must be required by a InCallService,\n to ensure that only the system can bind to it.",
+      "protectionLevel": [
+          "signature",
+          "privileged"
+      ]
+  },
+  {
+      "apiLevel": "3",
+      "permissionId": "BIND_INPUT_METHOD",
+      "fullPermissionId": "android.permission.BIND_INPUT_METHOD",
+      "description": "Must be required by an InputMethodService,\n to ensure that only the system can bind to it.",
+      "protectionLevel": [
+          "signature"
+      ]
+  },
+  {
+      "apiLevel": "23",
+      "permissionId": "BIND_MIDI_DEVICE_SERVICE",
+      "fullPermissionId": "android.permission.BIND_MIDI_DEVICE_SERVICE",
+      "description": "Must be required by an MidiDeviceService,\n to ensure that only the system can bind to it.",
+      "protectionLevel": [
+          "signature"
+      ]
+  },
+  {
+      "apiLevel": "19",
+      "permissionId": "BIND_NFC_SERVICE",
+      "fullPermissionId": "android.permission.BIND_NFC_SERVICE",
+      "description": "Must be required by a HostApduService\n or OffHostApduService to ensure that only\n the system can bind to it.",
+      "protectionLevel": [
+          "signature"
+      ]
+  },
+  {
+      "apiLevel": "18",
+      "permissionId": "BIND_NOTIFICATION_LISTENER_SERVICE",
+      "fullPermissionId": "android.permission.BIND_NOTIFICATION_LISTENER_SERVICE",
+      "description": "Must be required by an NotificationListenerService,\n to ensure that only the system can bind to it.",
+      "protectionLevel": [
+          "signature"
+      ]
+  },
+  {
+      "apiLevel": "19",
+      "permissionId": "BIND_PRINT_SERVICE",
+      "fullPermissionId": "android.permission.BIND_PRINT_SERVICE",
+      "description": "Must be required by a PrintService,\n to ensure that only the system can bind to it.",
+      "protectionLevel": [
+          "signature"
+      ]
+  },
+  {
+      "apiLevel": "30",
+      "permissionId": "BIND_QUICK_ACCESS_WALLET_SERVICE",
+      "fullPermissionId": "android.permission.BIND_QUICK_ACCESS_WALLET_SERVICE",
+      "description": "Must be required by a QuickAccessWalletService\n to ensure that only the system can bind to it.",
+      "protectionLevel": [
+          "signature"
+      ]
+  },
+  {
+      "apiLevel": "11",
+      "permissionId": "BIND_REMOTEVIEWS",
+      "fullPermissionId": "android.permission.BIND_REMOTEVIEWS",
+      "description": "Must be required by a RemoteViewsService,\n to ensure that only the system can bind to it.",
+      "protectionLevel": [
+          "signature",
+          "privileged"
+      ]
+  },
+  {
+      "apiLevel": "24",
+      "permissionId": "BIND_SCREENING_SERVICE",
+      "fullPermissionId": "android.permission.BIND_SCREENING_SERVICE",
+      "description": "Must be required by a CallScreeningService,\n to ensure that only the system can bind to it.",
+      "protectionLevel": [
+          "signature",
+          "privileged"
+      ]
+  },
+  {
+      "apiLevel": "23",
+      "permissionId": "BIND_TELECOM_CONNECTION_SERVICE",
+      "fullPermissionId": "android.permission.BIND_TELECOM_CONNECTION_SERVICE",
+      "description": "Must be required by a ConnectionService,\n to ensure that only the system can bind to it.",
+      "protectionLevel": [
+          "signature",
+          "privileged"
+      ]
+  },
+  {
+      "apiLevel": "14",
+      "permissionId": "BIND_TEXT_SERVICE",
+      "fullPermissionId": "android.permission.BIND_TEXT_SERVICE",
+      "description": "Must be required by a TextService (e.g. SpellCheckerService)\n to ensure that only the system can bind to it.",
+      "protectionLevel": [
+          "signature"
+      ]
+  },
+  {
+      "apiLevel": "Baklava",
+      "permissionId": "BIND_TV_AD_SERVICE",
+      "fullPermissionId": "android.permission.BIND_TV_AD_SERVICE",
+      "description": "Must be required by a android.media.tv.ad.TvAdService to ensure that only the system can\n bind to it.",
+      "protectionLevel": [
+          "signature",
+          "privileged"
+      ]
+  },
+  {
+      "apiLevel": "21",
+      "permissionId": "BIND_TV_INPUT",
+      "fullPermissionId": "android.permission.BIND_TV_INPUT",
+      "description": "Must be required by a TvInputService\n to ensure that only the system can bind to it.",
+      "protectionLevel": [
+          "signature",
+          "privileged"
+      ]
+  },
+  {
+      "apiLevel": "33",
+      "permissionId": "BIND_TV_INTERACTIVE_APP",
+      "fullPermissionId": "android.permission.BIND_TV_INTERACTIVE_APP",
+      "description": "Must be required by a TvInteractiveAppService\n to ensure that only the system can bind to it.",
+      "protectionLevel": [
+          "signature",
+          "privileged"
+      ]
+  },
+  {
+      "apiLevel": "26",
+      "permissionId": "BIND_VISUAL_VOICEMAIL_SERVICE",
+      "fullPermissionId": "android.permission.BIND_VISUAL_VOICEMAIL_SERVICE",
+      "description": "Must be required by a link VisualVoicemailService to ensure that\n only the system can bind to it.",
+      "protectionLevel": [
+          "signature",
+          "privileged"
+      ]
+  },
+  {
+      "apiLevel": "21",
+      "permissionId": "BIND_VOICE_INTERACTION",
+      "fullPermissionId": "android.permission.BIND_VOICE_INTERACTION",
+      "description": "Must be required by a VoiceInteractionService,\n to ensure that only the system can bind to it.",
+      "protectionLevel": [
+          "signature"
+      ]
+  },
+  {
+      "apiLevel": "14",
+      "permissionId": "BIND_VPN_SERVICE",
+      "fullPermissionId": "android.permission.BIND_VPN_SERVICE",
+      "description": "Must be required by a VpnService,\n to ensure that only the system can bind to it.",
+      "protectionLevel": [
+          "signature"
+      ]
+  },
+  {
+      "apiLevel": "24",
+      "permissionId": "BIND_VR_LISTENER_SERVICE",
+      "fullPermissionId": "android.permission.BIND_VR_LISTENER_SERVICE",
+      "description": "Must be required by an VrListenerService, to ensure that only\n the system can bind to it.",
+      "protectionLevel": [
+          "signature"
+      ]
+  },
+  {
+      "apiLevel": "8",
+      "permissionId": "BIND_WALLPAPER",
+      "fullPermissionId": "android.permission.BIND_WALLPAPER",
+      "description": "Must be required by a WallpaperService,\n to ensure that only the system can bind to it.",
+      "protectionLevel": [
+          "signature",
+          "privileged"
+      ]
+  },
+  {
+      "apiLevel": "1",
+      "permissionId": "BLUETOOTH",
+      "fullPermissionId": "android.permission.BLUETOOTH",
+      "description": "Allows applications to connect to paired bluetooth devices.",
+      "protectionLevel": [
+          "normal"
+      ]
+  },
+  {
+      "apiLevel": "1",
+      "permissionId": "BLUETOOTH_ADMIN",
+      "fullPermissionId": "android.permission.BLUETOOTH_ADMIN",
+      "description": "Allows applications to discover and pair bluetooth devices.",
+      "protectionLevel": [
+          "normal"
+      ]
+  },
+  {
+      "apiLevel": "31",
+      "permissionId": "BLUETOOTH_ADVERTISE",
+      "fullPermissionId": "android.permission.BLUETOOTH_ADVERTISE",
+      "description": "Required to be able to advertise to nearby Bluetooth devices.",
+      "protectionLevel": [
+          "dangerous"
+      ]
+  },
+  {
+      "apiLevel": "31",
+      "permissionId": "BLUETOOTH_CONNECT",
+      "fullPermissionId": "android.permission.BLUETOOTH_CONNECT",
+      "description": "Required to be able to connect to paired Bluetooth devices.",
+      "protectionLevel": [
+          "dangerous"
+      ]
+  },
+  {
+      "apiLevel": "31",
+      "permissionId": "BLUETOOTH_SCAN",
+      "fullPermissionId": "android.permission.BLUETOOTH_SCAN",
+      "description": "Required to be able to discover and pair nearby Bluetooth devices.",
+      "protectionLevel": [
+          "dangerous"
+      ]
+  },
+  {
+      "apiLevel": "20",
+      "permissionId": "BODY_SENSORS",
+      "fullPermissionId": "android.permission.BODY_SENSORS",
+      "description": "Allows an application to access data from sensors that the user uses to\n measure what is happening inside their body, such as heart rate.",
+      "protectionLevel": [
+          "dangerous"
+      ]
+  },
+  {
+      "apiLevel": "33",
+      "permissionId": "BODY_SENSORS_BACKGROUND",
+      "fullPermissionId": "android.permission.BODY_SENSORS_BACKGROUND",
+      "description": "Allows an application to access data from sensors that the user uses to measure what is\n happening inside their body, such as heart rate. If you're requesting this permission, you\n must also request BODY_SENSORS. Requesting this permission by itself doesn't give\n you Body sensors access. This is a hard restricted permission which cannot be held by an app until\n the installer on record allowlists the permission. For more details see\n PackageInstaller.SessionParams.setWhitelistedRestrictedPermissions(Set).",
+      "protectionLevel": [
+          "dangerous"
+      ]
+  },
+  {
+      "apiLevel": "1",
+      "permissionId": "BROADCAST_STICKY",
+      "fullPermissionId": "android.permission.BROADCAST_STICKY",
+      "description": "Allows an application to broadcast sticky intents.  These are\n broadcasts whose data is held by the system after being finished,\n so that clients can quickly retrieve that data without having\n to wait for the next broadcast.",
+      "protectionLevel": [
+          "normal"
+      ]
+  },
+  {
+      "apiLevel": "29",
+      "permissionId": "CALL_COMPANION_APP",
+      "fullPermissionId": "android.permission.CALL_COMPANION_APP",
+      "description": "Allows an app which implements the\n InCallService API to be eligible to be enabled as a\n calling companion app. This means that the Telecom framework will bind to the app's\n InCallService implementation when there are calls active. The app can use the InCallService\n API to view information about calls on the system and control these calls.",
+      "protectionLevel": [
+          "normal"
+      ]
+  },
+  {
+      "apiLevel": "1",
+      "permissionId": "CALL_PHONE",
+      "fullPermissionId": "android.permission.CALL_PHONE",
+      "description": "Allows an application to initiate a phone call without going through\n the Dialer user interface for the user to confirm the call. Note: An app holding this permission can also call carrier MMI\n codes to change settings such as call forwarding or call waiting preferences.",
+      "protectionLevel": [
+          "dangerous"
+      ]
+  },
+  {
+      "apiLevel": "1",
+      "permissionId": "CAMERA",
+      "fullPermissionId": "android.permission.CAMERA",
+      "description": "Required to be able to access the camera device. This will automatically enforce the\n \n uses-feature manifest element for all camera features.\n If you do not require all camera features or can properly operate if a camera\n is not available, then you must modify your manifest as appropriate in order to\n install on devices that don't support all camera features.",
+      "protectionLevel": [
+          "dangerous"
+      ]
+  },
+  {
+      "apiLevel": "1",
+      "permissionId": "CHANGE_CONFIGURATION",
+      "fullPermissionId": "android.permission.CHANGE_CONFIGURATION",
+      "description": "Allows an application to modify the current configuration, such\n as locale.",
+      "protectionLevel": [
+          "signature",
+          "privileged",
+          "development"
+      ]
+  },
+  {
+      "apiLevel": "1",
+      "permissionId": "CHANGE_NETWORK_STATE",
+      "fullPermissionId": "android.permission.CHANGE_NETWORK_STATE",
+      "description": "Allows applications to change network connectivity state.",
+      "protectionLevel": [
+          "normal"
+      ]
+  },
+  {
+      "apiLevel": "4",
+      "permissionId": "CHANGE_WIFI_MULTICAST_STATE",
+      "fullPermissionId": "android.permission.CHANGE_WIFI_MULTICAST_STATE",
+      "description": "Allows applications to enter Wi-Fi Multicast mode.",
+      "protectionLevel": [
+          "normal"
+      ]
+  },
+  {
+      "apiLevel": "1",
+      "permissionId": "CHANGE_WIFI_STATE",
+      "fullPermissionId": "android.permission.CHANGE_WIFI_STATE",
+      "description": "Allows applications to change Wi-Fi connectivity state.",
+      "protectionLevel": [
+          "normal"
+      ]
+  },
+  {
+      "apiLevel": "1",
+      "permissionId": "CLEAR_APP_CACHE",
+      "fullPermissionId": "android.permission.CLEAR_APP_CACHE",
+      "description": "Allows an application to clear the caches of all installed\n applications on the device.",
+      "protectionLevel": [
+          "signature",
+          "privileged"
+      ]
+  },
+  {
+      "apiLevel": "34",
+      "permissionId": "CREDENTIAL_MANAGER_QUERY_CANDIDATE_CREDENTIALS",
+      "fullPermissionId": "android.permission.CREDENTIAL_MANAGER_QUERY_CANDIDATE_CREDENTIALS",
+      "description": "Allows a browser to invoke the set of query apis to get metadata about credential\n candidates prepared during the CredentialManager.prepareGetCredential API.",
+      "protectionLevel": [
+          "normal"
+      ]
+  },
+  {
+      "apiLevel": "34",
+      "permissionId": "CREDENTIAL_MANAGER_SET_ALLOWED_PROVIDERS",
+      "fullPermissionId": "android.permission.CREDENTIAL_MANAGER_SET_ALLOWED_PROVIDERS",
+      "description": "Allows specifying candidate credential providers to be queried in Credential Manager\n get flows, or to be preferred as a default in the Credential Manager create flows.",
+      "protectionLevel": [
+          "normal"
+      ]
+  },
+  {
+      "apiLevel": "34",
+      "permissionId": "CREDENTIAL_MANAGER_SET_ORIGIN",
+      "fullPermissionId": "android.permission.CREDENTIAL_MANAGER_SET_ORIGIN",
+      "description": "Allows a browser to invoke credential manager APIs on behalf of another RP.",
+      "protectionLevel": [
+          "normal"
+      ]
+  },
+  {
+      "apiLevel": "1",
+      "permissionId": "DELETE_CACHE_FILES",
+      "fullPermissionId": "android.permission.DELETE_CACHE_FILES",
+      "description": "Old permission for deleting an app's cache files, no longer used,\n but signals for us to quietly ignore calls instead of throwing an exception.",
+      "protectionLevel": [
+          "signature",
+          "privileged"
+      ]
+  },
+  {
+      "apiLevel": "34",
+      "permissionId": "DETECT_SCREEN_CAPTURE",
+      "fullPermissionId": "android.permission.DETECT_SCREEN_CAPTURE",
+      "description": "Allows an application to get notified when a screen capture of its windows is attempted.",
+      "protectionLevel": [
+          "normal"
+      ]
+  },
+  {
+      "apiLevel": "35",
+      "permissionId": "DETECT_SCREEN_RECORDING",
+      "fullPermissionId": "android.permission.DETECT_SCREEN_RECORDING",
+      "description": "Allows an application to get notified when it is being recorded.",
+      "protectionLevel": [
+          "normal"
+      ]
+  },
+  {
+      "apiLevel": "1",
+      "permissionId": "DISABLE_KEYGUARD",
+      "fullPermissionId": "android.permission.DISABLE_KEYGUARD",
+      "description": "Allows applications to disable the keyguard if it is not secure.",
+      "protectionLevel": [
+          "normal"
+      ]
+  },
+  {
+      "apiLevel": "34",
+      "permissionId": "ENFORCE_UPDATE_OWNERSHIP",
+      "fullPermissionId": "android.permission.ENFORCE_UPDATE_OWNERSHIP",
+      "description": "Allows an application to indicate via PackageInstaller.SessionParams.setRequestUpdateOwnership(boolean)\n that it has the intention of becoming the update owner.",
+      "protectionLevel": [
+          "normal"
+      ]
+  },
+  {
+      "apiLevel": "34",
+      "permissionId": "EXECUTE_APP_ACTION",
+      "fullPermissionId": "android.permission.EXECUTE_APP_ACTION",
+      "description": "Allows an assistive application to perform actions on behalf of users inside of\n applications. For now, this permission is only granted to the Assistant application selected by\n the user.",
+      "protectionLevel": [
+          "internal",
+          "role"
+      ]
+  },
+  {
+      "apiLevel": "Baklava",
+      "permissionId": "EXECUTE_APP_FUNCTIONS",
+      "fullPermissionId": "android.permission.EXECUTE_APP_FUNCTIONS",
+      "description": "Allows an application to perform actions on behalf of users inside of\n applications. This permission is currently only granted to privileged system apps. Apps contributing app functions can opt to disallow callers with this permission,\n limiting to only callers with ERROR(/android.permission.EXECUTE_APP_FUNCTIONS_TRUSTED)\n instead.",
+      "protectionLevel": [
+          "internal",
+          "privileged"
+      ]
+  },
+  {
+      "apiLevel": "1",
+      "permissionId": "EXPAND_STATUS_BAR",
+      "fullPermissionId": "android.permission.EXPAND_STATUS_BAR",
+      "description": "Allows an application to expand or collapse the status bar.",
+      "protectionLevel": [
+          "normal"
+      ]
+  },
+  {
+      "apiLevel": "28",
+      "permissionId": "FOREGROUND_SERVICE",
+      "fullPermissionId": "android.permission.FOREGROUND_SERVICE",
+      "description": "Allows a regular application to use Service.startForeground.",
+      "protectionLevel": [
+          "normal"
+      ]
+  },
+  {
+      "apiLevel": "34",
+      "permissionId": "FOREGROUND_SERVICE_CAMERA",
+      "fullPermissionId": "android.permission.FOREGROUND_SERVICE_CAMERA",
+      "description": "Allows a regular application to use Service.startForeground with the type \"camera\".",
+      "protectionLevel": [
+          "normal",
+          "instant"
+      ]
+  },
+  {
+      "apiLevel": "34",
+      "permissionId": "FOREGROUND_SERVICE_CONNECTED_DEVICE",
+      "fullPermissionId": "android.permission.FOREGROUND_SERVICE_CONNECTED_DEVICE",
+      "description": "Allows a regular application to use Service.startForeground with the type \"connectedDevice\".",
+      "protectionLevel": [
+          "normal",
+          "instant"
+      ]
+  },
+  {
+      "apiLevel": "34",
+      "permissionId": "FOREGROUND_SERVICE_DATA_SYNC",
+      "fullPermissionId": "android.permission.FOREGROUND_SERVICE_DATA_SYNC",
+      "description": "Allows a regular application to use Service.startForeground with the type \"dataSync\".",
+      "protectionLevel": [
+          "normal",
+          "instant"
+      ]
+  },
+  {
+      "apiLevel": "34",
+      "permissionId": "FOREGROUND_SERVICE_HEALTH",
+      "fullPermissionId": "android.permission.FOREGROUND_SERVICE_HEALTH",
+      "description": "Allows a regular application to use Service.startForeground with the type \"health\".",
+      "protectionLevel": [
+          "normal",
+          "instant"
+      ]
+  },
+  {
+      "apiLevel": "34",
+      "permissionId": "FOREGROUND_SERVICE_LOCATION",
+      "fullPermissionId": "android.permission.FOREGROUND_SERVICE_LOCATION",
+      "description": "Allows a regular application to use Service.startForeground with the type \"location\".",
+      "protectionLevel": [
+          "normal",
+          "instant"
+      ]
+  },
+  {
+      "apiLevel": "34",
+      "permissionId": "FOREGROUND_SERVICE_MEDIA_PLAYBACK",
+      "fullPermissionId": "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK",
+      "description": "Allows a regular application to use Service.startForeground with the type \"mediaPlayback\".",
+      "protectionLevel": [
+          "normal",
+          "instant"
+      ]
+  },
+  {
+      "apiLevel": "35",
+      "permissionId": "FOREGROUND_SERVICE_MEDIA_PROCESSING",
+      "fullPermissionId": "android.permission.FOREGROUND_SERVICE_MEDIA_PROCESSING",
+      "description": "Allows a regular application to use Service.startForeground with the type \"mediaProcessing\".",
+      "protectionLevel": [
+          "normal",
+          "instant"
+      ]
+  },
+  {
+      "apiLevel": "34",
+      "permissionId": "FOREGROUND_SERVICE_MEDIA_PROJECTION",
+      "fullPermissionId": "android.permission.FOREGROUND_SERVICE_MEDIA_PROJECTION",
+      "description": "Allows a regular application to use Service.startForeground with the type \"mediaProjection\".",
+      "protectionLevel": [
+          "normal",
+          "instant"
+      ]
+  },
+  {
+      "apiLevel": "34",
+      "permissionId": "FOREGROUND_SERVICE_MICROPHONE",
+      "fullPermissionId": "android.permission.FOREGROUND_SERVICE_MICROPHONE",
+      "description": "Allows a regular application to use Service.startForeground with the type \"microphone\".",
+      "protectionLevel": [
+          "normal",
+          "instant"
+      ]
+  },
+  {
+      "apiLevel": "34",
+      "permissionId": "FOREGROUND_SERVICE_PHONE_CALL",
+      "fullPermissionId": "android.permission.FOREGROUND_SERVICE_PHONE_CALL",
+      "description": "Allows a regular application to use Service.startForeground with the type \"phoneCall\".",
+      "protectionLevel": [
+          "normal",
+          "instant"
+      ]
+  },
+  {
+      "apiLevel": "34",
+      "permissionId": "FOREGROUND_SERVICE_REMOTE_MESSAGING",
+      "fullPermissionId": "android.permission.FOREGROUND_SERVICE_REMOTE_MESSAGING",
+      "description": "Allows a regular application to use Service.startForeground with the type \"remoteMessaging\".",
+      "protectionLevel": [
+          "normal",
+          "instant"
+      ]
+  },
+  {
+      "apiLevel": "34",
+      "permissionId": "FOREGROUND_SERVICE_SPECIAL_USE",
+      "fullPermissionId": "android.permission.FOREGROUND_SERVICE_SPECIAL_USE",
+      "description": "Allows a regular application to use Service.startForeground with the type \"specialUse\".",
+      "protectionLevel": [
+          "normal",
+          "appop",
+          "instant"
+      ]
+  },
+  {
+      "apiLevel": "34",
+      "permissionId": "FOREGROUND_SERVICE_SYSTEM_EXEMPTED",
+      "fullPermissionId": "android.permission.FOREGROUND_SERVICE_SYSTEM_EXEMPTED",
+      "description": "Allows a regular application to use Service.startForeground with the type \"systemExempted\".\n Apps are allowed to use this type only in the use cases listed in\n ServiceInfo.FOREGROUND_SERVICE_TYPE_SYSTEM_EXEMPTED.",
+      "protectionLevel": [
+          "normal",
+          "instant"
+      ]
+  },
+  {
+      "apiLevel": "1",
+      "permissionId": "GET_ACCOUNTS",
+      "fullPermissionId": "android.permission.GET_ACCOUNTS",
+      "description": "Allows access to the list of accounts in the Accounts Service. Note: Beginning with Android 6.0 (API level\n 23), if an app shares the signature of the authenticator that manages an\n account, it does not need \"GET_ACCOUNTS\" permission to read\n information about that account. On Android 5.1 and lower, all apps need\n \"GET_ACCOUNTS\" permission to read information about any\n account.",
+      "protectionLevel": [
+          "dangerous"
+      ]
+  },
+  {
+      "apiLevel": "23",
+      "permissionId": "GET_ACCOUNTS_PRIVILEGED",
+      "fullPermissionId": "android.permission.GET_ACCOUNTS_PRIVILEGED",
+      "description": "Allows access to the list of accounts in the Accounts Service.",
+      "protectionLevel": [
+          "signature",
+          "privileged"
+      ]
+  },
+  {
+      "apiLevel": "1",
+      "permissionId": "GET_PACKAGE_SIZE",
+      "fullPermissionId": "android.permission.GET_PACKAGE_SIZE",
+      "description": "Allows an application to find out the space used by any package.",
+      "protectionLevel": [
+          "normal"
+      ]
+  },
+  {
+      "apiLevel": "4",
+      "permissionId": "GLOBAL_SEARCH",
+      "fullPermissionId": "android.permission.GLOBAL_SEARCH",
+      "description": "This permission can be used on content providers to allow the global\n search system to access their data.  Typically it used when the\n provider has some permissions protecting it (which global search\n would not be expected to hold), and added as a read-only permission\n to the path in the provider where global search queries are\n performed.  This permission can not be held by regular applications;\n it is used by applications to protect themselves from everyone else\n besides global search.",
+      "protectionLevel": [
+          "signature",
+          "privileged"
+      ]
+  },
+  {
+      "apiLevel": "31",
+      "permissionId": "HIGH_SAMPLING_RATE_SENSORS",
+      "fullPermissionId": "android.permission.HIGH_SAMPLING_RATE_SENSORS",
+      "description": "Allows an app to access sensor data with a sampling rate greater than 200 Hz.",
+      "protectionLevel": [
+          "normal"
+      ]
+  },
+  {
+      "apiLevel": "19",
+      "permissionId": "INSTALL_SHORTCUT",
+      "fullPermissionId": "com.android.launcher.permission.INSTALL_SHORTCUT",
+      "description": "Allows an application to install a shortcut in Launcher. In Android O (API level 26) and higher, the INSTALL_SHORTCUT broadcast no\n longer has any effect on your app because it's a private, implicit\n broadcast. Instead, you should create an app shortcut by using the\n requestPinShortcut()\n method from the ShortcutManager class.",
+      "protectionLevel": [
+          "normal"
+      ]
+  },
+  {
+      "apiLevel": "26",
+      "permissionId": "INSTANT_APP_FOREGROUND_SERVICE",
+      "fullPermissionId": "android.permission.INSTANT_APP_FOREGROUND_SERVICE",
+      "description": "Allows an instant app to create foreground services.",
+      "protectionLevel": [
+          "signature",
+          "development",
+          "instant",
+          "appop"
+      ]
+  },
+  {
+      "apiLevel": "1",
+      "permissionId": "INTERNET",
+      "fullPermissionId": "android.permission.INTERNET",
+      "description": "Allows applications to open network sockets.",
+      "protectionLevel": [
+          "normal"
+      ]
+  },
+  {
+      "apiLevel": "8",
+      "permissionId": "KILL_BACKGROUND_PROCESSES",
+      "fullPermissionId": "android.permission.KILL_BACKGROUND_PROCESSES",
+      "description": "Allows an application to call\n ActivityManager.killBackgroundProcesses(String). As of Android version Build.VERSION_CODES.UPSIDE_DOWN_CAKE,\n the ActivityManager.killBackgroundProcesses(String) is no longer available to\n third party applications. For backwards compatibility, the background processes of the\n caller's own package will still be killed when calling this API. If the caller has\n the system permission KILL_ALL_BACKGROUND_PROCESSES, other processes will be\n killed too.",
+      "protectionLevel": [
+          "normal"
+      ]
+  },
+  {
+      "apiLevel": "34",
+      "permissionId": "LAUNCH_CAPTURE_CONTENT_ACTIVITY_FOR_NOTE",
+      "fullPermissionId": "android.permission.LAUNCH_CAPTURE_CONTENT_ACTIVITY_FOR_NOTE",
+      "description": "Allows an application to capture screen content to perform a screenshot using the intent\n action Intent.ACTION_LAUNCH_CAPTURE_CONTENT_ACTIVITY_FOR_NOTE. Intended for use by ROLE_NOTES only.",
+      "protectionLevel": [
+          "internal",
+          "role"
+      ]
+  },
+  {
+      "apiLevel": "30",
+      "permissionId": "LOADER_USAGE_STATS",
+      "fullPermissionId": "android.permission.LOADER_USAGE_STATS",
+      "description": "Allows a data loader to read a package's access logs. The access logs contain the\n set of pages referenced over time. Declaring the permission implies intention to use the API and the user of the\n device can grant permission through the Settings application. A data loader has to be the one which provides data to install an app. A data loader has to have both permission:LOADER_USAGE_STATS AND\n appop:LOADER_USAGE_STATS allowed to be able to access the read logs.",
+      "protectionLevel": [
+          "signature",
+          "privileged",
+          "appop"
+      ]
+  },
+  {
+      "apiLevel": "34",
+      "permissionId": "MANAGE_DEVICE_LOCK_STATE",
+      "fullPermissionId": "android.permission.MANAGE_DEVICE_LOCK_STATE",
+      "description": "Allows financed device kiosk apps to perform actions on the Device Lock service Intended for use by the FINANCED_DEVICE_KIOSK role only.",
+      "protectionLevel": [
+          "internal",
+          "role"
+      ]
+  },
+  {
+      "apiLevel": "34",
+      "permissionId": "MANAGE_DEVICE_POLICY_ACCESSIBILITY",
+      "fullPermissionId": "android.permission.MANAGE_DEVICE_POLICY_ACCESSIBILITY",
+      "description": "Allows an application to manage policy related to accessibility. Manifest.permission.MANAGE_DEVICE_POLICY_ACROSS_USERS_FULL is required to\n call APIs protected by this permission on users different to the calling user. Intended for use by the DEVICE_POLICY_MANAGEMENT role only.",
+      "protectionLevel": [
+          "internal",
+          "role"
+      ]
+  },
+  {
+      "apiLevel": "34",
+      "permissionId": "MANAGE_DEVICE_POLICY_ACCOUNT_MANAGEMENT",
+      "fullPermissionId": "android.permission.MANAGE_DEVICE_POLICY_ACCOUNT_MANAGEMENT",
+      "description": "Allows an application to set policy related to account management. Manifest.permission.MANAGE_DEVICE_POLICY_ACROSS_USERS is required to call\n APIs protected by this permission on users different to the calling user. Intended for use by the DEVICE_POLICY_MANAGEMENT role only.",
+      "protectionLevel": [
+          "internal",
+          "role"
+      ]
+  },
+  {
+      "apiLevel": "34",
+      "permissionId": "MANAGE_DEVICE_POLICY_ACROSS_USERS",
+      "fullPermissionId": "android.permission.MANAGE_DEVICE_POLICY_ACROSS_USERS",
+      "description": "Allows an application to set device policies outside the current user\n that are required for securing device ownership without accessing user data. Holding this permission allows the use of other held MANAGE_DEVICE_POLICY_*\n permissions across all users on the device provided they do not grant access to user data. Intended for use by the DEVICE_POLICY_MANAGEMENT role only.",
+      "protectionLevel": [
+          "internal",
+          "role"
+      ]
+  },
+  {
+      "apiLevel": "34",
+      "permissionId": "MANAGE_DEVICE_POLICY_ACROSS_USERS_FULL",
+      "fullPermissionId": "android.permission.MANAGE_DEVICE_POLICY_ACROSS_USERS_FULL",
+      "description": "Allows an application to set device policies outside the current user. Fuller form of MANAGE_DEVICE_POLICY_ACROSS_USERS\n that removes the restriction on accessing user data. Holding this permission allows the use of any other held MANAGE_DEVICE_POLICY_*\n permissions across all users on the device. Intended for use by the DEVICE_POLICY_MANAGEMENT role only.",
+      "protectionLevel": [
+          "internal",
+          "role"
+      ]
+  },
+  {
+      "apiLevel": "34",
+      "permissionId": "MANAGE_DEVICE_POLICY_ACROSS_USERS_SECURITY_CRITICAL",
+      "fullPermissionId": "android.permission.MANAGE_DEVICE_POLICY_ACROSS_USERS_SECURITY_CRITICAL",
+      "description": "Allows an application to set device policies outside the current user\n that are critical for securing data within the current user. Holding this permission allows the use of other held MANAGE_DEVICE_POLICY_*\n permissions across all users on the device provided they are required for securing data\n within the current user. Intended for use by the DEVICE_POLICY_MANAGEMENT role only.",
+      "protectionLevel": [
+          "internal",
+          "role"
+      ]
+  },
+  {
+      "apiLevel": "34",
+      "permissionId": "MANAGE_DEVICE_POLICY_AIRPLANE_MODE",
+      "fullPermissionId": "android.permission.MANAGE_DEVICE_POLICY_AIRPLANE_MODE",
+      "description": "Allows an application to set policy related to airplane mode. Manifest.permission.MANAGE_DEVICE_POLICY_ACROSS_USERS is required to call\n APIs protected by this permission on users different to the calling user. Intended for use by the DEVICE_POLICY_MANAGEMENT role only.",
+      "protectionLevel": [
+          "internal",
+          "role"
+      ]
+  },
+  {
+      "apiLevel": "34",
+      "permissionId": "MANAGE_DEVICE_POLICY_APPS_CONTROL",
+      "fullPermissionId": "android.permission.MANAGE_DEVICE_POLICY_APPS_CONTROL",
+      "description": "Allows an application to manage policy regarding modifying applications. Manifest.permission.MANAGE_DEVICE_POLICY_ACROSS_USERS_FULL is required to call\n APIs protected by this permission on users different to the calling user. Intended for use by the DEVICE_POLICY_MANAGEMENT role only.",
+      "protectionLevel": [
+          "internal",
+          "role"
+      ]
+  },
+  {
+      "apiLevel": "Baklava",
+      "permissionId": "MANAGE_DEVICE_POLICY_APP_FUNCTIONS",
+      "fullPermissionId": "android.permission.MANAGE_DEVICE_POLICY_APP_FUNCTIONS",
+      "description": "Allows an application to manage policy related to AppFunctions.",
+      "protectionLevel": [
+          "internal",
+          "role"
+      ]
+  },
+  {
+      "apiLevel": "34",
+      "permissionId": "MANAGE_DEVICE_POLICY_APP_RESTRICTIONS",
+      "fullPermissionId": "android.permission.MANAGE_DEVICE_POLICY_APP_RESTRICTIONS",
+      "description": "Allows an application to manage application restrictions. Manifest.permission.MANAGE_DEVICE_POLICY_ACROSS_USERS_FULL is required to call\n APIs protected by this permission on users different to the calling user. Intended for use by the DEVICE_POLICY_MANAGEMENT role only.",
+      "protectionLevel": [
+          "internal",
+          "role"
+      ]
+  },
+  {
+      "apiLevel": "34",
+      "permissionId": "MANAGE_DEVICE_POLICY_APP_USER_DATA",
+      "fullPermissionId": "android.permission.MANAGE_DEVICE_POLICY_APP_USER_DATA",
+      "description": "Allows an application to manage policy related to application user data. Manifest.permission.MANAGE_DEVICE_POLICY_ACROSS_USERS_FULL is required to call\n APIs protected by this permission on users different to the calling user. Intended for use by the DEVICE_POLICY_MANAGEMENT role only.",
+      "protectionLevel": [
+          "internal",
+          "role"
+      ]
+  },
+  {
+      "apiLevel": "35",
+      "permissionId": "MANAGE_DEVICE_POLICY_ASSIST_CONTENT",
+      "fullPermissionId": "android.permission.MANAGE_DEVICE_POLICY_ASSIST_CONTENT",
+      "description": "Allows an application to set policy related to sending assist content to a\n privileged app such as the Assistant app. Intended for use by the DEVICE_POLICY_MANAGEMENT role only.",
+      "protectionLevel": [
+          "internal",
+          "role"
+      ]
+  },
+  {
+      "apiLevel": "34",
+      "permissionId": "MANAGE_DEVICE_POLICY_AUDIO_OUTPUT",
+      "fullPermissionId": "android.permission.MANAGE_DEVICE_POLICY_AUDIO_OUTPUT",
+      "description": "Allows an application to set policy related to audio output. Manifest.permission.MANAGE_DEVICE_POLICY_ACROSS_USERS_FULL is\n required to call APIs protected by this permission on users different to the calling user. Intended for use by the DEVICE_POLICY_MANAGEMENT role only.",
+      "protectionLevel": [
+          "internal",
+          "role"
+      ]
+  },
+  {
+      "apiLevel": "34",
+      "permissionId": "MANAGE_DEVICE_POLICY_AUTOFILL",
+      "fullPermissionId": "android.permission.MANAGE_DEVICE_POLICY_AUTOFILL",
+      "description": "Allows an application to set policy related to autofill. Manifest.permission.MANAGE_DEVICE_POLICY_ACROSS_USERS_FULL is\n required to call APIs protected by this permission on users different to the calling user. Intended for use by the DEVICE_POLICY_MANAGEMENT role only.",
+      "protectionLevel": [
+          "internal",
+          "role"
+      ]
+  },
+  {
+      "apiLevel": "34",
+      "permissionId": "MANAGE_DEVICE_POLICY_BACKUP_SERVICE",
+      "fullPermissionId": "android.permission.MANAGE_DEVICE_POLICY_BACKUP_SERVICE",
+      "description": "Allows an application to manage backup service policy. Manifest.permission.MANAGE_DEVICE_POLICY_ACROSS_USERS_FULL is required to call\n APIs protected by this permission on users different to the calling user. Intended for use by the DEVICE_POLICY_MANAGEMENT role only.",
+      "protectionLevel": [
+          "internal",
+          "role"
+      ]
+  },
+  {
+      "apiLevel": "35",
+      "permissionId": "MANAGE_DEVICE_POLICY_BLOCK_UNINSTALL",
+      "fullPermissionId": "android.permission.MANAGE_DEVICE_POLICY_BLOCK_UNINSTALL",
+      "description": "Allows an application to manage policy related to block package uninstallation. Intended for use by the DEVICE_POLICY_MANAGEMENT role only.",
+      "protectionLevel": [
+          "internal",
+          "role"
+      ]
+  },
+  {
+      "apiLevel": "34",
+      "permissionId": "MANAGE_DEVICE_POLICY_BLUETOOTH",
+      "fullPermissionId": "android.permission.MANAGE_DEVICE_POLICY_BLUETOOTH",
+      "description": "Allows an application to set policy related to bluetooth. Manifest.permission.MANAGE_DEVICE_POLICY_ACROSS_USERS_FULL is required to call\n APIs protected by this permission on users different to the calling user. Intended for use by the DEVICE_POLICY_MANAGEMENT role only.",
+      "protectionLevel": [
+          "internal",
+          "role"
+      ]
+  },
+  {
+      "apiLevel": "34",
+      "permissionId": "MANAGE_DEVICE_POLICY_BUGREPORT",
+      "fullPermissionId": "android.permission.MANAGE_DEVICE_POLICY_BUGREPORT",
+      "description": "Allows an application to request bugreports with user consent. Manifest.permission.MANAGE_DEVICE_POLICY_ACROSS_USERS_FULL is required to call\n APIs protected by this permission on users different to the calling user. Intended for use by the DEVICE_POLICY_MANAGEMENT role only.",
+      "protectionLevel": [
+          "internal",
+          "role"
+      ]
+  },
+  {
+      "apiLevel": "34",
+      "permissionId": "MANAGE_DEVICE_POLICY_CALLS",
+      "fullPermissionId": "android.permission.MANAGE_DEVICE_POLICY_CALLS",
+      "description": "Allows an application to manage calling policy. Manifest.permission.MANAGE_DEVICE_POLICY_ACROSS_USERS_FULL is required to call\n APIs protected by this permission on users different to the calling user. Intended for use by the DEVICE_POLICY_MANAGEMENT role only.",
+      "protectionLevel": [
+          "internal",
+          "role"
+      ]
+  },
+  {
+      "apiLevel": "34",
+      "permissionId": "MANAGE_DEVICE_POLICY_CAMERA",
+      "fullPermissionId": "android.permission.MANAGE_DEVICE_POLICY_CAMERA",
+      "description": "Allows an application to set policy related to restricting a user's ability to use or\n enable and disable the camera. Manifest.permission.MANAGE_DEVICE_POLICY_ACROSS_USERS is required to call\n APIs protected by this permission on users different to the calling user. Intended for use by the DEVICE_POLICY_MANAGEMENT role only.",
+      "protectionLevel": [
+          "internal",
+          "role"
+      ]
+  },
+  {
+      "apiLevel": "35",
+      "permissionId": "MANAGE_DEVICE_POLICY_CAMERA_TOGGLE",
+      "fullPermissionId": "android.permission.MANAGE_DEVICE_POLICY_CAMERA_TOGGLE",
+      "description": "Allows an application to manage policy related to camera toggle. Intended for use by the DEVICE_POLICY_MANAGEMENT role only.",
+      "protectionLevel": [
+          "internal",
+          "role"
+      ]
+  },
+  {
+      "apiLevel": "34",
+      "permissionId": "MANAGE_DEVICE_POLICY_CERTIFICATES",
+      "fullPermissionId": "android.permission.MANAGE_DEVICE_POLICY_CERTIFICATES",
+      "description": "Allows an application to set policy related to certificates. Manifest.permission.MANAGE_DEVICE_POLICY_ACROSS_USERS_FULL is\n required to call APIs protected by this permission on users different to the calling user. Intended for use by the DEVICE_POLICY_MANAGEMENT role only.",
+      "protectionLevel": [
+          "internal",
+          "role"
+      ]
+  },
+  {
+      "apiLevel": "34",
+      "permissionId": "MANAGE_DEVICE_POLICY_COMMON_CRITERIA_MODE",
+      "fullPermissionId": "android.permission.MANAGE_DEVICE_POLICY_COMMON_CRITERIA_MODE",
+      "description": "Allows an application to manage policy related to common criteria mode. Manifest.permission.MANAGE_DEVICE_POLICY_ACROSS_USERS_FULL is required to call\n APIs protected by this permission on users different to the calling user. Intended for use by the DEVICE_POLICY_MANAGEMENT role only.",
+      "protectionLevel": [
+          "internal",
+          "role"
+      ]
+  },
+  {
+      "apiLevel": "35",
+      "permissionId": "MANAGE_DEVICE_POLICY_CONTENT_PROTECTION",
+      "fullPermissionId": "android.permission.MANAGE_DEVICE_POLICY_CONTENT_PROTECTION",
+      "description": "Allows an application to manage policy related to content protection.",
+      "protectionLevel": [
+          "internal",
+          "role"
+      ]
+  },
+  {
+      "apiLevel": "34",
+      "permissionId": "MANAGE_DEVICE_POLICY_DEBUGGING_FEATURES",
+      "fullPermissionId": "android.permission.MANAGE_DEVICE_POLICY_DEBUGGING_FEATURES",
+      "description": "Allows an application to manage debugging features policy. Manifest.permission.MANAGE_DEVICE_POLICY_ACROSS_USERS_FULL is required to call\n APIs protected by this permission on users different to the calling user. Intended for use by the DEVICE_POLICY_MANAGEMENT role only.",
+      "protectionLevel": [
+          "internal",
+          "role"
+      ]
+  },
+  {
+      "apiLevel": "34",
+      "permissionId": "MANAGE_DEVICE_POLICY_DEFAULT_SMS",
+      "fullPermissionId": "android.permission.MANAGE_DEVICE_POLICY_DEFAULT_SMS",
+      "description": "Allows an application to set policy related to the default sms application. Manifest.permission.MANAGE_DEVICE_POLICY_ACROSS_USERS is\n required to call APIs protected by this permission on users different to the calling user. Intended for use by the DEVICE_POLICY_MANAGEMENT role only.",
+      "protectionLevel": [
+          "internal",
+          "role"
+      ]
+  },
+  {
+      "apiLevel": "34",
+      "permissionId": "MANAGE_DEVICE_POLICY_DEVICE_IDENTIFIERS",
+      "fullPermissionId": "android.permission.MANAGE_DEVICE_POLICY_DEVICE_IDENTIFIERS",
+      "description": "Allows an application to manage policy related to device identifiers. Intended for use by the DEVICE_POLICY_MANAGEMENT role only.",
+      "protectionLevel": [
+          "internal",
+          "role"
+      ]
+  },
+  {
+      "apiLevel": "34",
+      "permissionId": "MANAGE_DEVICE_POLICY_DISPLAY",
+      "fullPermissionId": "android.permission.MANAGE_DEVICE_POLICY_DISPLAY",
+      "description": "Allows an application to set policy related to the display. Manifest.permission.MANAGE_DEVICE_POLICY_ACROSS_USERS_FULL is\n required to call APIs protected by this permission on users different to the calling user. Intended for use by the DEVICE_POLICY_MANAGEMENT role only.",
+      "protectionLevel": [
+          "internal",
+          "role"
+      ]
+  },
+  {
+      "apiLevel": "34",
+      "permissionId": "MANAGE_DEVICE_POLICY_FACTORY_RESET",
+      "fullPermissionId": "android.permission.MANAGE_DEVICE_POLICY_FACTORY_RESET",
+      "description": "Allows an application to set policy related to factory reset. Manifest.permission.MANAGE_DEVICE_POLICY_ACROSS_USERS_FULL is\n required to call APIs protected by this permission on users different to the calling user. Intended for use by the DEVICE_POLICY_MANAGEMENT role only.",
+      "protectionLevel": [
+          "internal",
+          "role"
+      ]
+  },
+  {
+      "apiLevel": "34",
+      "permissionId": "MANAGE_DEVICE_POLICY_FUN",
+      "fullPermissionId": "android.permission.MANAGE_DEVICE_POLICY_FUN",
+      "description": "Allows an application to set policy related to fun. Manifest.permission.MANAGE_DEVICE_POLICY_ACROSS_USERS_FULL is required to call\n APIs protected by this permission on users different to the calling user. Intended for use by the DEVICE_POLICY_MANAGEMENT role only.",
+      "protectionLevel": [
+          "internal",
+          "role"
+      ]
+  },
+  {
+      "apiLevel": "34",
+      "permissionId": "MANAGE_DEVICE_POLICY_INPUT_METHODS",
+      "fullPermissionId": "android.permission.MANAGE_DEVICE_POLICY_INPUT_METHODS",
+      "description": "Allows an application to set policy related to input methods. Manifest.permission.MANAGE_DEVICE_POLICY_ACROSS_USERS is\n required to call APIs protected by this permission on users different to the calling user. Intended for use by the DEVICE_POLICY_MANAGEMENT role only.",
+      "protectionLevel": [
+          "internal",
+          "role"
+      ]
+  },
+  {
+      "apiLevel": "34",
+      "permissionId": "MANAGE_DEVICE_POLICY_INSTALL_UNKNOWN_SOURCES",
+      "fullPermissionId": "android.permission.MANAGE_DEVICE_POLICY_INSTALL_UNKNOWN_SOURCES",
+      "description": "Allows an application to manage installing from unknown sources policy. MANAGE_SECURITY_CRITICAL_DEVICE_POLICY_ACROSS_USERS is required to call APIs protected\n by this permission on users different to the calling user. Intended for use by the DEVICE_POLICY_MANAGEMENT role only.",
+      "protectionLevel": [
+          "internal",
+          "role"
+      ]
+  },
+  {
+      "apiLevel": "34",
+      "permissionId": "MANAGE_DEVICE_POLICY_KEEP_UNINSTALLED_PACKAGES",
+      "fullPermissionId": "android.permission.MANAGE_DEVICE_POLICY_KEEP_UNINSTALLED_PACKAGES",
+      "description": "Allows an application to set policy related to keeping uninstalled packages. Manifest.permission.MANAGE_DEVICE_POLICY_ACROSS_USERS_FULL is\n required to call APIs protected by this permission on users different to the calling user. Intended for use by the DEVICE_POLICY_MANAGEMENT role only.",
+      "protectionLevel": [
+          "internal",
+          "role"
+      ]
+  },
+  {
+      "apiLevel": "34",
+      "permissionId": "MANAGE_DEVICE_POLICY_KEYGUARD",
+      "fullPermissionId": "android.permission.MANAGE_DEVICE_POLICY_KEYGUARD",
+      "description": "Allows an application to manage policy related to keyguard. Manifest.permission.MANAGE_DEVICE_POLICY_ACROSS_USERS_SECURITY_CRITICAL is\n required to call APIs protected by this permission on users different to the calling user. Intended for use by the DEVICE_POLICY_MANAGEMENT role only.",
+      "protectionLevel": [
+          "internal",
+          "role"
+      ]
+  },
+  {
+      "apiLevel": "34",
+      "permissionId": "MANAGE_DEVICE_POLICY_LOCALE",
+      "fullPermissionId": "android.permission.MANAGE_DEVICE_POLICY_LOCALE",
+      "description": "Allows an application to set policy related to locale. Manifest.permission.MANAGE_DEVICE_POLICY_ACROSS_USERS_FULL is\n required to call APIs protected by this permission on users different to the calling user. Intended for use by the DEVICE_POLICY_MANAGEMENT role only.",
+      "protectionLevel": [
+          "internal",
+          "role"
+      ]
+  },
+  {
+      "apiLevel": "34",
+      "permissionId": "MANAGE_DEVICE_POLICY_LOCATION",
+      "fullPermissionId": "android.permission.MANAGE_DEVICE_POLICY_LOCATION",
+      "description": "Allows an application to set policy related to location. Manifest.permission.MANAGE_DEVICE_POLICY_ACROSS_USERS_FULL is\n required to call APIs protected by this permission on users different to the calling user. Intended for use by the DEVICE_POLICY_MANAGEMENT role only.",
+      "protectionLevel": [
+          "internal",
+          "role"
+      ]
+  },
+  {
+      "apiLevel": "34",
+      "permissionId": "MANAGE_DEVICE_POLICY_LOCK",
+      "fullPermissionId": "android.permission.MANAGE_DEVICE_POLICY_LOCK",
+      "description": "Allows an application to lock a profile or the device with the appropriate cross-user\n permission. Manifest.permission.MANAGE_DEVICE_POLICY_ACROSS_USERS_FULL is required to call\n APIs protected by this permission on users different to the calling user. Intended for use by the DEVICE_POLICY_MANAGEMENT role only.",
+      "protectionLevel": [
+          "internal",
+          "role"
+      ]
+  },
+  {
+      "apiLevel": "34",
+      "permissionId": "MANAGE_DEVICE_POLICY_LOCK_CREDENTIALS",
+      "fullPermissionId": "android.permission.MANAGE_DEVICE_POLICY_LOCK_CREDENTIALS",
+      "description": "Allows an application to set policy related to lock credentials. Manifest.permission.MANAGE_DEVICE_POLICY_ACROSS_USERS_SECURITY_CRITICAL is\n required to call APIs protected by this permission on users different to the calling user. Intended for use by the DEVICE_POLICY_MANAGEMENT role only.",
+      "protectionLevel": [
+          "internal",
+          "role"
+      ]
+  },
+  {
+      "apiLevel": "34",
+      "permissionId": "MANAGE_DEVICE_POLICY_LOCK_TASK",
+      "fullPermissionId": "android.permission.MANAGE_DEVICE_POLICY_LOCK_TASK",
+      "description": "Allows an application to manage lock task policy. Manifest.permission.MANAGE_DEVICE_POLICY_ACROSS_USERS_FULL is required to call\n APIs protected by this permission on users different to the calling user. Intended for use by the DEVICE_POLICY_MANAGEMENT role only.",
+      "protectionLevel": [
+          "internal",
+          "role"
+      ]
+  },
+  {
+      "apiLevel": "35",
+      "permissionId": "MANAGE_DEVICE_POLICY_MANAGED_SUBSCRIPTIONS",
+      "fullPermissionId": "android.permission.MANAGE_DEVICE_POLICY_MANAGED_SUBSCRIPTIONS",
+      "description": "Allows an application to set policy related to subscriptions downloaded by an admin. Manifest.permission.MANAGE_DEVICE_POLICY_ACROSS_USERS_FULL is required to call\n APIs protected by this permission on users different to the calling user. Intended for use by the DEVICE_POLICY_MANAGEMENT role only.",
+      "protectionLevel": [
+          "internal",
+          "role"
+      ]
+  },
+  {
+      "apiLevel": "34",
+      "permissionId": "MANAGE_DEVICE_POLICY_METERED_DATA",
+      "fullPermissionId": "android.permission.MANAGE_DEVICE_POLICY_METERED_DATA",
+      "description": "Allows an application to manage policy related to metered data. Manifest.permission.MANAGE_DEVICE_POLICY_ACROSS_USERS_FULL is required to call\n APIs protected by this permission on users different to the calling user. Intended for use by the DEVICE_POLICY_MANAGEMENT role only.",
+      "protectionLevel": [
+          "internal",
+          "role"
+      ]
+  },
+  {
+      "apiLevel": "34",
+      "permissionId": "MANAGE_DEVICE_POLICY_MICROPHONE",
+      "fullPermissionId": "android.permission.MANAGE_DEVICE_POLICY_MICROPHONE",
+      "description": "Allows an application to set policy related to restricting a user's ability to use or\n enable and disable the microphone. Manifest.permission.MANAGE_DEVICE_POLICY_ACROSS_USERS is required to call\n APIs protected by this permission on users different to the calling user. Intended for use by the DEVICE_POLICY_MANAGEMENT role only.",
+      "protectionLevel": [
+          "internal",
+          "role"
+      ]
+  },
+  {
+      "apiLevel": "35",
+      "permissionId": "MANAGE_DEVICE_POLICY_MICROPHONE_TOGGLE",
+      "fullPermissionId": "android.permission.MANAGE_DEVICE_POLICY_MICROPHONE_TOGGLE",
+      "description": "Allows an application to manage policy related to microphone toggle. Intended for use by the DEVICE_POLICY_MANAGEMENT role only.",
+      "protectionLevel": [
+          "internal",
+          "role"
+      ]
+  },
+  {
+      "apiLevel": "34",
+      "permissionId": "MANAGE_DEVICE_POLICY_MOBILE_NETWORK",
+      "fullPermissionId": "android.permission.MANAGE_DEVICE_POLICY_MOBILE_NETWORK",
+      "description": "Allows an application to set policy related to mobile networks. Manifest.permission.MANAGE_DEVICE_POLICY_ACROSS_USERS_FULL is required to call\n APIs protected by this permission on users different to the calling user. Intended for use by the DEVICE_POLICY_MANAGEMENT role only.",
+      "protectionLevel": [
+          "internal",
+          "role"
+      ]
+  },
+  {
+      "apiLevel": "34",
+      "permissionId": "MANAGE_DEVICE_POLICY_MODIFY_USERS",
+      "fullPermissionId": "android.permission.MANAGE_DEVICE_POLICY_MODIFY_USERS",
+      "description": "Allows an application to manage policy preventing users from modifying users. Manifest.permission.MANAGE_DEVICE_POLICY_ACROSS_USERS_FULL is required to call\n APIs protected by this permission on users different to the calling user Intended for use by the DEVICE_POLICY_MANAGEMENT role only.",
+      "protectionLevel": [
+          "internal",
+          "role"
+      ]
+  },
+  {
+      "apiLevel": "34",
+      "permissionId": "MANAGE_DEVICE_POLICY_MTE",
+      "fullPermissionId": "android.permission.MANAGE_DEVICE_POLICY_MTE",
+      "description": "Allows an application to manage policy related to the Memory Tagging Extension (MTE). Intended for use by the DEVICE_POLICY_MANAGEMENT role only.",
+      "protectionLevel": [
+          "internal",
+          "role"
+      ]
+  },
+  {
+      "apiLevel": "34",
+      "permissionId": "MANAGE_DEVICE_POLICY_NEARBY_COMMUNICATION",
+      "fullPermissionId": "android.permission.MANAGE_DEVICE_POLICY_NEARBY_COMMUNICATION",
+      "description": "Allows an application to set policy related to nearby communications (e.g. Beam and\n nearby streaming). Manifest.permission.MANAGE_DEVICE_POLICY_ACROSS_USERS_FULL is\n required to call APIs protected by this permission on users different to the calling user. Intended for use by the DEVICE_POLICY_MANAGEMENT role only.",
+      "protectionLevel": [
+          "internal",
+          "role"
+      ]
+  },
+  {
+      "apiLevel": "34",
+      "permissionId": "MANAGE_DEVICE_POLICY_NETWORK_LOGGING",
+      "fullPermissionId": "android.permission.MANAGE_DEVICE_POLICY_NETWORK_LOGGING",
+      "description": "Allows an application to set policy related to network logging. Manifest.permission.MANAGE_DEVICE_POLICY_ACROSS_USERS_FULL is\n required to call APIs protected by this permission on users different to the calling user. Intended for use by the DEVICE_POLICY_MANAGEMENT role only.",
+      "protectionLevel": [
+          "internal",
+          "role"
+      ]
+  },
+  {
+      "apiLevel": "34",
+      "permissionId": "MANAGE_DEVICE_POLICY_ORGANIZATION_IDENTITY",
+      "fullPermissionId": "android.permission.MANAGE_DEVICE_POLICY_ORGANIZATION_IDENTITY",
+      "description": "Allows an application to manage the identity of the managing organization. Manifest.permission.MANAGE_DEVICE_POLICY_ACROSS_USERS_FULL is required to call\n APIs protected by this permission on users different to the calling user. Intended for use by the DEVICE_POLICY_MANAGEMENT role only.",
+      "protectionLevel": [
+          "internal",
+          "role"
+      ]
+  },
+  {
+      "apiLevel": "34",
+      "permissionId": "MANAGE_DEVICE_POLICY_OVERRIDE_APN",
+      "fullPermissionId": "android.permission.MANAGE_DEVICE_POLICY_OVERRIDE_APN",
+      "description": "Allows an application to set policy related to override APNs. Manifest.permission.MANAGE_DEVICE_POLICY_ACROSS_USERS_FULL is\n required to call APIs protected by this permission on users different to the calling user. Intended for use by the DEVICE_POLICY_MANAGEMENT role only.",
+      "protectionLevel": [
+          "internal",
+          "role"
+      ]
+  },
+  {
+      "apiLevel": "34",
+      "permissionId": "MANAGE_DEVICE_POLICY_PACKAGE_STATE",
+      "fullPermissionId": "android.permission.MANAGE_DEVICE_POLICY_PACKAGE_STATE",
+      "description": "Allows an application to set policy related to hiding and suspending packages. Manifest.permission.MANAGE_DEVICE_POLICY_ACROSS_USERS is required to call\n APIs protected by this permission on users different to the calling user. Intended for use by the DEVICE_POLICY_MANAGEMENT role only.",
+      "protectionLevel": [
+          "internal",
+          "role"
+      ]
+  },
+  {
+      "apiLevel": "34",
+      "permissionId": "MANAGE_DEVICE_POLICY_PHYSICAL_MEDIA",
+      "fullPermissionId": "android.permission.MANAGE_DEVICE_POLICY_PHYSICAL_MEDIA",
+      "description": "Allows an application to set policy related to physical media. Manifest.permission.MANAGE_DEVICE_POLICY_ACROSS_USERS_FULL is required to call\n APIs protected by this permission on users different to the calling user. Intended for use by the DEVICE_POLICY_MANAGEMENT role only.",
+      "protectionLevel": [
+          "internal",
+          "role"
+      ]
+  },
+  {
+      "apiLevel": "34",
+      "permissionId": "MANAGE_DEVICE_POLICY_PRINTING",
+      "fullPermissionId": "android.permission.MANAGE_DEVICE_POLICY_PRINTING",
+      "description": "Allows an application to set policy related to printing. Manifest.permission.MANAGE_DEVICE_POLICY_ACROSS_USERS_FULL is\n required to call APIs protected by this permission on users different to the calling user. Intended for use by the DEVICE_POLICY_MANAGEMENT role only.",
+      "protectionLevel": [
+          "internal",
+          "role"
+      ]
+  },
+  {
+      "apiLevel": "34",
+      "permissionId": "MANAGE_DEVICE_POLICY_PRIVATE_DNS",
+      "fullPermissionId": "android.permission.MANAGE_DEVICE_POLICY_PRIVATE_DNS",
+      "description": "Allows an application to set policy related to private DNS. Manifest.permission.MANAGE_DEVICE_POLICY_ACROSS_USERS_FULL is\n required to call APIs protected by this permission on users different to the calling user. Intended for use by the DEVICE_POLICY_MANAGEMENT role only.",
+      "protectionLevel": [
+          "internal",
+          "role"
+      ]
+  },
+  {
+      "apiLevel": "34",
+      "permissionId": "MANAGE_DEVICE_POLICY_PROFILES",
+      "fullPermissionId": "android.permission.MANAGE_DEVICE_POLICY_PROFILES",
+      "description": "Allows an application to set policy related to profiles. Manifest.permission.MANAGE_DEVICE_POLICY_ACROSS_USERS_FULL is\n required to call APIs protected by this permission on users different to the calling user. Intended for use by the DEVICE_POLICY_MANAGEMENT role only.",
+      "protectionLevel": [
+          "internal",
+          "role"
+      ]
+  },
+  {
+      "apiLevel": "34",
+      "permissionId": "MANAGE_DEVICE_POLICY_PROFILE_INTERACTION",
+      "fullPermissionId": "android.permission.MANAGE_DEVICE_POLICY_PROFILE_INTERACTION",
+      "description": "Allows an application to set policy related to interacting with profiles (e.g. Disallowing\n cross-profile copy and paste). Manifest.permission.MANAGE_DEVICE_POLICY_ACROSS_USERS_FULL is\n required to call APIs protected by this permission on users different to the calling user. Intended for use by the DEVICE_POLICY_MANAGEMENT role only.",
+      "protectionLevel": [
+          "internal",
+          "role"
+      ]
+  },
+  {
+      "apiLevel": "34",
+      "permissionId": "MANAGE_DEVICE_POLICY_PROXY",
+      "fullPermissionId": "android.permission.MANAGE_DEVICE_POLICY_PROXY",
+      "description": "Allows an application to set a network-independent global HTTP proxy. Manifest.permission.MANAGE_DEVICE_POLICY_ACROSS_USERS_FULL is required to call\n APIs protected by this permission on users different to the calling user. Intended for use by the DEVICE_POLICY_MANAGEMENT role only.",
+      "protectionLevel": [
+          "internal",
+          "role"
+      ]
+  },
+  {
+      "apiLevel": "34",
+      "permissionId": "MANAGE_DEVICE_POLICY_QUERY_SYSTEM_UPDATES",
+      "fullPermissionId": "android.permission.MANAGE_DEVICE_POLICY_QUERY_SYSTEM_UPDATES",
+      "description": "Allows an application query system updates. Manifest.permission.MANAGE_DEVICE_POLICY_ACROSS_USERS_FULL is\n required to call APIs protected by this permission on users different to the calling user. Intended for use by the DEVICE_POLICY_MANAGEMENT role only.",
+      "protectionLevel": [
+          "internal",
+          "role"
+      ]
+  },
+  {
+      "apiLevel": "34",
+      "permissionId": "MANAGE_DEVICE_POLICY_RESET_PASSWORD",
+      "fullPermissionId": "android.permission.MANAGE_DEVICE_POLICY_RESET_PASSWORD",
+      "description": "Allows an application to force set a new device unlock password or a managed profile\n challenge on current user. Manifest.permission.MANAGE_DEVICE_POLICY_ACROSS_USERS_FULL is required to call\n APIs protected by this permission on users different to the calling user. Intended for use by the DEVICE_POLICY_MANAGEMENT role only.",
+      "protectionLevel": [
+          "internal",
+          "role"
+      ]
+  },
+  {
+      "apiLevel": "34",
+      "permissionId": "MANAGE_DEVICE_POLICY_RESTRICT_PRIVATE_DNS",
+      "fullPermissionId": "android.permission.MANAGE_DEVICE_POLICY_RESTRICT_PRIVATE_DNS",
+      "description": "Allows an application to set policy related to restricting the user from configuring\n private DNS. Manifest.permission.MANAGE_DEVICE_POLICY_ACROSS_USERS is\n required to call APIs protected by this permission on users different to the calling user. Intended for use by the DEVICE_POLICY_MANAGEMENT role only.",
+      "protectionLevel": [
+          "internal",
+          "role"
+      ]
+  },
+  {
+      "apiLevel": "34",
+      "permissionId": "MANAGE_DEVICE_POLICY_RUNTIME_PERMISSIONS",
+      "fullPermissionId": "android.permission.MANAGE_DEVICE_POLICY_RUNTIME_PERMISSIONS",
+      "description": "Allows an application to set the grant state of runtime permissions on packages. Manifest.permission.MANAGE_DEVICE_POLICY_ACROSS_USERS_FULL is required to call\n APIs protected by this permission on users different to the calling user. Intended for use by the DEVICE_POLICY_MANAGEMENT role only.",
+      "protectionLevel": [
+          "internal",
+          "role"
+      ]
+  },
+  {
+      "apiLevel": "34",
+      "permissionId": "MANAGE_DEVICE_POLICY_RUN_IN_BACKGROUND",
+      "fullPermissionId": "android.permission.MANAGE_DEVICE_POLICY_RUN_IN_BACKGROUND",
+      "description": "Allows an application to set policy related to users running in the background. Manifest.permission.MANAGE_DEVICE_POLICY_ACROSS_USERS_FULL is\n required to call APIs protected by this permission on users different to the calling user. Intended for use by the DEVICE_POLICY_MANAGEMENT role only.",
+      "protectionLevel": [
+          "internal",
+          "role"
+      ]
+  },
+  {
+      "apiLevel": "34",
+      "permissionId": "MANAGE_DEVICE_POLICY_SAFE_BOOT",
+      "fullPermissionId": "android.permission.MANAGE_DEVICE_POLICY_SAFE_BOOT",
+      "description": "Allows an application to manage safe boot policy. Manifest.permission.MANAGE_DEVICE_POLICY_ACROSS_USERS_FULL is required to call\n APIs protected by this permission on users different to the calling user. Intended for use by the DEVICE_POLICY_MANAGEMENT role only.",
+      "protectionLevel": [
+          "internal",
+          "role"
+      ]
+  },
+  {
+      "apiLevel": "34",
+      "permissionId": "MANAGE_DEVICE_POLICY_SCREEN_CAPTURE",
+      "fullPermissionId": "android.permission.MANAGE_DEVICE_POLICY_SCREEN_CAPTURE",
+      "description": "Allows an application to set policy related to screen capture. Manifest.permission.MANAGE_DEVICE_POLICY_ACROSS_USERS is\n required to call APIs protected by this permission on users different to the calling user. Intended for use by the DEVICE_POLICY_MANAGEMENT role only.",
+      "protectionLevel": [
+          "internal",
+          "role"
+      ]
+  },
+  {
+      "apiLevel": "34",
+      "permissionId": "MANAGE_DEVICE_POLICY_SCREEN_CONTENT",
+      "fullPermissionId": "android.permission.MANAGE_DEVICE_POLICY_SCREEN_CONTENT",
+      "description": "Allows an application to set policy related to the usage of the contents of the screen. Manifest.permission.MANAGE_DEVICE_POLICY_ACROSS_USERS_FULL is\n required to call APIs protected by this permission on users different to the calling user. Intended for use by the DEVICE_POLICY_MANAGEMENT role only.",
+      "protectionLevel": [
+          "internal",
+          "role"
+      ]
+  },
+  {
+      "apiLevel": "34",
+      "permissionId": "MANAGE_DEVICE_POLICY_SECURITY_LOGGING",
+      "fullPermissionId": "android.permission.MANAGE_DEVICE_POLICY_SECURITY_LOGGING",
+      "description": "Allows an application to set policy related to security logging. Manifest.permission.MANAGE_DEVICE_POLICY_ACROSS_USERS_FULL is\n required to call APIs protected by this permission on users different to the calling user. Intended for use by the DEVICE_POLICY_MANAGEMENT role only.",
+      "protectionLevel": [
+          "internal",
+          "role"
+      ]
+  },
+  {
+      "apiLevel": "34",
+      "permissionId": "MANAGE_DEVICE_POLICY_SETTINGS",
+      "fullPermissionId": "android.permission.MANAGE_DEVICE_POLICY_SETTINGS",
+      "description": "Allows an application to set policy related to settings. Manifest.permission.MANAGE_DEVICE_POLICY_ACROSS_USERS_FULL is\n required to call APIs protected by this permission on users different to the calling user. Intended for use by the DEVICE_POLICY_MANAGEMENT role only.",
+      "protectionLevel": [
+          "internal",
+          "role"
+      ]
+  },
+  {
+      "apiLevel": "34",
+      "permissionId": "MANAGE_DEVICE_POLICY_SMS",
+      "fullPermissionId": "android.permission.MANAGE_DEVICE_POLICY_SMS",
+      "description": "Allows an application to set policy related to sms. Manifest.permission.MANAGE_DEVICE_POLICY_ACROSS_USERS_FULL is required to call\n APIs protected by this permission on users different to the calling user. Intended for use by the DEVICE_POLICY_MANAGEMENT role only.",
+      "protectionLevel": [
+          "internal",
+          "role"
+      ]
+  },
+  {
+      "apiLevel": "34",
+      "permissionId": "MANAGE_DEVICE_POLICY_STATUS_BAR",
+      "fullPermissionId": "android.permission.MANAGE_DEVICE_POLICY_STATUS_BAR",
+      "description": "Allows an application to set policy related to the status bar. Intended for use by the DEVICE_POLICY_MANAGEMENT role only.",
+      "protectionLevel": [
+          "internal",
+          "role"
+      ]
+  },
+  {
+      "apiLevel": "34",
+      "permissionId": "MANAGE_DEVICE_POLICY_SUPPORT_MESSAGE",
+      "fullPermissionId": "android.permission.MANAGE_DEVICE_POLICY_SUPPORT_MESSAGE",
+      "description": "Allows an application to set support messages for when a user action is affected by an\n active policy. Manifest.permission.MANAGE_DEVICE_POLICY_ACROSS_USERS_FULL is required to call\n APIs protected by this permission on users different to the calling user. Intended for use by the DEVICE_POLICY_MANAGEMENT role only.",
+      "protectionLevel": [
+          "internal",
+          "role"
+      ]
+  },
+  {
+      "apiLevel": "34",
+      "permissionId": "MANAGE_DEVICE_POLICY_SUSPEND_PERSONAL_APPS",
+      "fullPermissionId": "android.permission.MANAGE_DEVICE_POLICY_SUSPEND_PERSONAL_APPS",
+      "description": "Allows an application to set policy related to suspending personal apps. Manifest.permission.MANAGE_DEVICE_POLICY_ACROSS_USERS_FULL is\n required to call APIs protected by this permission on users different to the calling user. Intended for use by the DEVICE_POLICY_MANAGEMENT role only.",
+      "protectionLevel": [
+          "internal",
+          "role"
+      ]
+  },
+  {
+      "apiLevel": "34",
+      "permissionId": "MANAGE_DEVICE_POLICY_SYSTEM_APPS",
+      "fullPermissionId": "android.permission.MANAGE_DEVICE_POLICY_SYSTEM_APPS",
+      "description": "Allows an application to manage policy related to system apps. Manifest.permission.MANAGE_DEVICE_POLICY_ACROSS_USERS_FULL is required to call\n APIs protected by this permission on users different to the calling user. Intended for use by the DEVICE_POLICY_MANAGEMENT role only.",
+      "protectionLevel": [
+          "internal",
+          "role"
+      ]
+  },
+  {
+      "apiLevel": "34",
+      "permissionId": "MANAGE_DEVICE_POLICY_SYSTEM_DIALOGS",
+      "fullPermissionId": "android.permission.MANAGE_DEVICE_POLICY_SYSTEM_DIALOGS",
+      "description": "Allows an application to set policy related to system dialogs. Manifest.permission.MANAGE_DEVICE_POLICY_ACROSS_USERS_FULL is\n required to call APIs protected by this permission on users different to the calling user. Intended for use by the DEVICE_POLICY_MANAGEMENT role only.",
+      "protectionLevel": [
+          "internal",
+          "role"
+      ]
+  },
+  {
+      "apiLevel": "34",
+      "permissionId": "MANAGE_DEVICE_POLICY_SYSTEM_UPDATES",
+      "fullPermissionId": "android.permission.MANAGE_DEVICE_POLICY_SYSTEM_UPDATES",
+      "description": "Allows an application to set policy related to system updates. Manifest.permission.MANAGE_DEVICE_POLICY_ACROSS_USERS_FULL is\n required to call APIs protected by this permission on users different to the calling user. Intended for use by the DEVICE_POLICY_MANAGEMENT role only.",
+      "protectionLevel": [
+          "internal",
+          "role"
+      ]
+  },
+  {
+      "apiLevel": "Baklava",
+      "permissionId": "MANAGE_DEVICE_POLICY_THREAD_NETWORK",
+      "fullPermissionId": "android.permission.MANAGE_DEVICE_POLICY_THREAD_NETWORK",
+      "description": "Allows an application to set policy related to Thread network. Intended for use by the DEVICE_POLICY_MANAGEMENT role only.",
+      "protectionLevel": [
+          "internal",
+          "role"
+      ]
+  },
+  {
+      "apiLevel": "34",
+      "permissionId": "MANAGE_DEVICE_POLICY_TIME",
+      "fullPermissionId": "android.permission.MANAGE_DEVICE_POLICY_TIME",
+      "description": "Allows an application to manage device policy relating to time. Manifest.permission.MANAGE_DEVICE_POLICY_ACROSS_USERS_FULL is required to call\n APIs protected by this permission on users different to the calling user. Intended for use by the DEVICE_POLICY_MANAGEMENT role only.",
+      "protectionLevel": [
+          "internal",
+          "role"
+      ]
+  },
+  {
+      "apiLevel": "34",
+      "permissionId": "MANAGE_DEVICE_POLICY_USB_DATA_SIGNALLING",
+      "fullPermissionId": "android.permission.MANAGE_DEVICE_POLICY_USB_DATA_SIGNALLING",
+      "description": "Allows an application to set policy related to usb data signalling. Intended for use by the DEVICE_POLICY_MANAGEMENT role only.",
+      "protectionLevel": [
+          "internal",
+          "role"
+      ]
+  },
+  {
+      "apiLevel": "34",
+      "permissionId": "MANAGE_DEVICE_POLICY_USB_FILE_TRANSFER",
+      "fullPermissionId": "android.permission.MANAGE_DEVICE_POLICY_USB_FILE_TRANSFER",
+      "description": "Allows an application to set policy related to usb file transfers. Manifest.permission.MANAGE_DEVICE_POLICY_ACROSS_USERS_FULL is required to call\n APIs protected by this permission on users different to the calling user. Intended for use by the DEVICE_POLICY_MANAGEMENT role only.",
+      "protectionLevel": [
+          "internal",
+          "role"
+      ]
+  },
+  {
+      "apiLevel": "34",
+      "permissionId": "MANAGE_DEVICE_POLICY_USERS",
+      "fullPermissionId": "android.permission.MANAGE_DEVICE_POLICY_USERS",
+      "description": "Allows an application to set policy related to users. Manifest.permission.MANAGE_DEVICE_POLICY_ACROSS_USERS_FULL is\n required to call APIs protected by this permission on users different to the calling user. Intended for use by the DEVICE_POLICY_MANAGEMENT role only.",
+      "protectionLevel": [
+          "internal",
+          "role"
+      ]
+  },
+  {
+      "apiLevel": "34",
+      "permissionId": "MANAGE_DEVICE_POLICY_VPN",
+      "fullPermissionId": "android.permission.MANAGE_DEVICE_POLICY_VPN",
+      "description": "Allows an application to set policy related to VPNs. Manifest.permission.MANAGE_DEVICE_POLICY_ACROSS_USERS_FULL is\n required to call APIs protected by this permission on users different to the calling user. Intended for use by the DEVICE_POLICY_MANAGEMENT role only.",
+      "protectionLevel": [
+          "internal",
+          "role"
+      ]
+  },
+  {
+      "apiLevel": "34",
+      "permissionId": "MANAGE_DEVICE_POLICY_WALLPAPER",
+      "fullPermissionId": "android.permission.MANAGE_DEVICE_POLICY_WALLPAPER",
+      "description": "Allows an application to set policy related to the wallpaper. Manifest.permission.MANAGE_DEVICE_POLICY_ACROSS_USERS_FULL is\n required to call APIs protected by this permission on users different to the calling user. Intended for use by the DEVICE_POLICY_MANAGEMENT role only.",
+      "protectionLevel": [
+          "internal",
+          "role"
+      ]
+  },
+  {
+      "apiLevel": "34",
+      "permissionId": "MANAGE_DEVICE_POLICY_WIFI",
+      "fullPermissionId": "android.permission.MANAGE_DEVICE_POLICY_WIFI",
+      "description": "Allows an application to set policy related to Wifi. Manifest.permission.MANAGE_DEVICE_POLICY_ACROSS_USERS is\n required to call APIs protected by this permission on users different to the calling user. Intended for use by the DEVICE_POLICY_MANAGEMENT role only.",
+      "protectionLevel": [
+          "internal",
+          "role"
+      ]
+  },
+  {
+      "apiLevel": "34",
+      "permissionId": "MANAGE_DEVICE_POLICY_WINDOWS",
+      "fullPermissionId": "android.permission.MANAGE_DEVICE_POLICY_WINDOWS",
+      "description": "Allows an application to set policy related to windows. Manifest.permission.MANAGE_DEVICE_POLICY_ACROSS_USERS_FULL is\n required to call APIs protected by this permission on users different to the calling user. Intended for use by the DEVICE_POLICY_MANAGEMENT role only.",
+      "protectionLevel": [
+          "internal",
+          "role"
+      ]
+  },
+  {
+      "apiLevel": "34",
+      "permissionId": "MANAGE_DEVICE_POLICY_WIPE_DATA",
+      "fullPermissionId": "android.permission.MANAGE_DEVICE_POLICY_WIPE_DATA",
+      "description": "Allows an application to manage policy related to wiping data. Manifest.permission.MANAGE_DEVICE_POLICY_ACROSS_USERS is required to call\n APIs protected by this permission on users different to the calling user. Intended for use by the DEVICE_POLICY_MANAGEMENT role only.",
+      "protectionLevel": [
+          "internal",
+          "role"
+      ]
+  },
+  {
+      "apiLevel": "30",
+      "permissionId": "MANAGE_EXTERNAL_STORAGE",
+      "fullPermissionId": "android.permission.MANAGE_EXTERNAL_STORAGE",
+      "description": "Allows an application a broad access to external storage in scoped storage.\n Intended to be used by few apps that need to manage files on behalf of the users.",
+      "protectionLevel": [
+          "signature",
+          "appop",
+          "preinstalled"
+      ]
+  },
+  {
+      "apiLevel": "31",
+      "permissionId": "MANAGE_MEDIA",
+      "fullPermissionId": "android.permission.MANAGE_MEDIA",
+      "description": "Allows an application to modify and delete media files on this device or any connected\n storage device without user confirmation. Applications must already be granted the\n READ_EXTERNAL_STORAGE or MANAGE_EXTERNAL_STORAGE} permissions for this\n permission to take effect. Even if applications are granted this permission, if applications want to modify or\n delete media files, they also must get the access by calling\n MediaStore.createWriteRequest(ContentResolver, Collection),\n MediaStore.createDeleteRequest(ContentResolver, Collection), or\n MediaStore.createTrashRequest(ContentResolver, Collection, boolean). This permission doesn't give read or write access directly. It only prevents the user\n confirmation dialog for these requests. If applications are not granted ACCESS_MEDIA_LOCATION, the system also pops up\n the user confirmation dialog for the write request.",
+      "protectionLevel": [
+          "signature",
+          "appop",
+          "preinstalled"
+      ]
+  },
+  {
+      "apiLevel": "31",
+      "permissionId": "MANAGE_ONGOING_CALLS",
+      "fullPermissionId": "android.permission.MANAGE_ONGOING_CALLS",
+      "description": "Allows to query ongoing call details and manage ongoing calls",
+      "protectionLevel": [
+          "signature",
+          "appop"
+      ]
+  },
+  {
+      "apiLevel": "26",
+      "permissionId": "MANAGE_OWN_CALLS",
+      "fullPermissionId": "android.permission.MANAGE_OWN_CALLS",
+      "description": "Allows a calling application which manages its own calls through the self-managed\n ConnectionService APIs.  See\n PhoneAccount.CAPABILITY_SELF_MANAGED for more information on the\n self-managed ConnectionService APIs.",
+      "protectionLevel": [
+          "normal"
+      ]
+  },
+  {
+      "apiLevel": "1",
+      "permissionId": "MODIFY_AUDIO_SETTINGS",
+      "fullPermissionId": "android.permission.MODIFY_AUDIO_SETTINGS",
+      "description": "Allows an application to modify global audio settings.",
+      "protectionLevel": [
+          "normal"
+      ]
+  },
+  {
+      "apiLevel": "33",
+      "permissionId": "NEARBY_WIFI_DEVICES",
+      "fullPermissionId": "android.permission.NEARBY_WIFI_DEVICES",
+      "description": "Required to be able to advertise and connect to nearby devices via Wi-Fi.",
+      "protectionLevel": [
+          "dangerous"
+      ]
+  },
+  {
+      "apiLevel": "9",
+      "permissionId": "NFC",
+      "fullPermissionId": "android.permission.NFC",
+      "description": "Allows applications to perform I/O operations over NFC.",
+      "protectionLevel": [
+          "normal"
+      ]
+  },
+  {
+      "apiLevel": "30",
+      "permissionId": "NFC_PREFERRED_PAYMENT_INFO",
+      "fullPermissionId": "android.permission.NFC_PREFERRED_PAYMENT_INFO",
+      "description": "Allows applications to receive NFC preferred payment service information.",
+      "protectionLevel": [
+          "normal"
+      ]
+  },
+  {
+      "apiLevel": "28",
+      "permissionId": "NFC_TRANSACTION_EVENT",
+      "fullPermissionId": "android.permission.NFC_TRANSACTION_EVENT",
+      "description": "Allows applications to receive NFC transaction events.",
+      "protectionLevel": [
+          "normal"
+      ]
+  },
+  {
+      "apiLevel": "23",
+      "permissionId": "PACKAGE_USAGE_STATS",
+      "fullPermissionId": "android.permission.PACKAGE_USAGE_STATS",
+      "description": "Allows an application to collect component usage\n statistics Declaring the permission implies intention to use the API and the user of the\n device can grant permission through the Settings application.",
+      "protectionLevel": [
+          "signature",
+          "privileged",
+          "development",
+          "appop",
+          "retailDemo"
+      ]
+  },
+  {
+      "apiLevel": "33",
+      "permissionId": "POST_NOTIFICATIONS",
+      "fullPermissionId": "android.permission.POST_NOTIFICATIONS",
+      "description": "Allows an app to post notifications",
+      "protectionLevel": [
+          "dangerous"
+      ]
+  },
+  {
+      "apiLevel": "1",
+      "permissionId": "PROCESS_OUTGOING_CALLS",
+      "fullPermissionId": "android.permission.PROCESS_OUTGOING_CALLS",
+      "description": "This constant was deprecated\n      in API level 29.\n    Applications should use CallRedirectionService instead\n of the Intent.ACTION_NEW_OUTGOING_CALL broadcast. Allows an application to see the number being dialed during an outgoing\n call with the option to redirect the call to a different number or\n abort the call altogether. This is a hard restricted permission which cannot be held by an app until\n the installer on record allowlists the permission. For more details see\n PackageInstaller.SessionParams.setWhitelistedRestrictedPermissions(Set).",
+      "protectionLevel": [
+          "dangerous"
+      ]
+  },
+  {
+      "apiLevel": "34",
+      "permissionId": "PROVIDE_OWN_AUTOFILL_SUGGESTIONS",
+      "fullPermissionId": "android.permission.PROVIDE_OWN_AUTOFILL_SUGGESTIONS",
+      "description": "Allows an application to display its suggestions using the autofill framework. For now, this permission is only granted to the Browser application.",
+      "protectionLevel": [
+          "internal",
+          "role"
+      ]
+  },
+  {
+      "apiLevel": "34",
+      "permissionId": "PROVIDE_REMOTE_CREDENTIALS",
+      "fullPermissionId": "android.permission.PROVIDE_REMOTE_CREDENTIALS",
+      "description": "Allows an application to be able to store and retrieve credentials from a remote\n device.",
+      "protectionLevel": [
+          "signature",
+          "privileged",
+          "role"
+      ]
+  },
+  {
+      "apiLevel": "30",
+      "permissionId": "QUERY_ALL_PACKAGES",
+      "fullPermissionId": "android.permission.QUERY_ALL_PACKAGES",
+      "description": "Allows query of any normal app on the device, regardless of manifest declarations.",
+      "protectionLevel": [
+          "normal"
+      ]
+  },
+  {
+      "apiLevel": "Baklava",
+      "permissionId": "RANGING",
+      "fullPermissionId": "android.permission.RANGING",
+      "description": "Required to be able to range to devices using generic ranging module.",
+      "protectionLevel": [
+          "dangerous"
+      ]
+  },
+  {
+      "apiLevel": "1",
+      "permissionId": "READ_CALENDAR",
+      "fullPermissionId": "android.permission.READ_CALENDAR",
+      "description": "Allows an application to read the user's calendar data.",
+      "protectionLevel": [
+          "dangerous"
+      ]
+  },
+  {
+      "apiLevel": "16",
+      "permissionId": "READ_CALL_LOG",
+      "fullPermissionId": "android.permission.READ_CALL_LOG",
+      "description": "Allows an application to read the user's call log. Note: If your app uses the\n READ_CONTACTS permission and both your minSdkVersion and targetSdkVersion values are set to 15 or lower, the system implicitly\n grants your app this permission. If you don't need this permission, be sure your targetSdkVersion is 16 or higher. This is a hard restricted permission which cannot be held by an app until\n the installer on record allowlists the permission. For more details see\n PackageInstaller.SessionParams.setWhitelistedRestrictedPermissions(Set).",
+      "protectionLevel": [
+          "dangerous"
+      ]
+  },
+  {
+      "apiLevel": "Baklava",
+      "permissionId": "READ_COLOR_ZONES",
+      "fullPermissionId": "android.permission.READ_COLOR_ZONES",
+      "description": "Allows an application to read the aggregated color zones on the screen for use cases like\n TV ambient backlight usages.",
+      "protectionLevel": [
+          "normal"
+      ]
+  },
+  {
+      "apiLevel": "1",
+      "permissionId": "READ_CONTACTS",
+      "fullPermissionId": "android.permission.READ_CONTACTS",
+      "description": "Allows an application to read the user's contacts data.",
+      "protectionLevel": [
+          "dangerous"
+      ]
+  },
+  {
+      "apiLevel": "16",
+      "permissionId": "READ_EXTERNAL_STORAGE",
+      "fullPermissionId": "android.permission.READ_EXTERNAL_STORAGE",
+      "description": "Allows an application to read from external storage. Note: Starting in API level 33, this permission has no\n effect. If your app accesses other apps' media files, request one or more of these permissions\n instead: READ_MEDIA_IMAGES,\n READ_MEDIA_VIDEO,\n READ_MEDIA_AUDIO. Learn more about the\n storage\n permissions that are associated with media files. This permission is enforced starting in API level 19.  Before API level 19, this\n permission is not enforced and all apps still have access to read from external storage.\n You can test your app with the permission enforced by enabling Protect USB\n storage under Developer options in the Settings app on a device running Android\n 4.1 or higher. Also starting in API level 19, this permission is not required to\n read or write files in your application-specific directories returned by\n Context.getExternalFilesDir(String) and\n Context.getExternalCacheDir(). Starting in API level 29, apps don't need to request this permission to access files in\n their app-specific directory on external storage, or their own files in the\n MediaStore. Apps\n shouldn't request this permission unless they need to access other apps' files in the\n MediaStore. Read more about these changes in the\n scoped storage section of the\n developer documentation. If both your minSdkVersion and targetSdkVersion values are set to 3 or lower, the system implicitly\n grants your app this permission. If you don't need this permission, be sure your targetSdkVersion is 4 or higher. This is a soft restricted permission which cannot be held by an app it its\n full form until the installer on record allowlists the permission.\n Specifically, if the permission is allowlisted the holder app can access\n external storage and the visual and aural media collections while if the\n permission is not allowlisted the holder app can only access to the visual\n and aural medial collections. Also the permission is immutably restricted\n meaning that the allowlist state can be specified only at install time and\n cannot change until the app is installed. For more details see\n PackageInstaller.SessionParams.setWhitelistedRestrictedPermissions(Set).",
+      "protectionLevel": [
+          "dangerous"
+      ]
+  },
+  {
+      "apiLevel": "33",
+      "permissionId": "READ_MEDIA_AUDIO",
+      "fullPermissionId": "android.permission.READ_MEDIA_AUDIO",
+      "description": "Allows an application to read audio files from external storage. This permission is enforced starting in API level\n Build.VERSION_CODES.TIRAMISU. An app which targets\n Build.VERSION_CODES.TIRAMISU or higher and needs to read audio files from\n external storage must hold this permission; READ_EXTERNAL_STORAGE is not required.\n For apps with a targetSdkVersion of Build.VERSION_CODES.S_V2 or lower, the\n READ_EXTERNAL_STORAGE permission is required, instead, to read audio files.",
+      "protectionLevel": [
+          "dangerous"
+      ]
+  },
+  {
+      "apiLevel": "33",
+      "permissionId": "READ_MEDIA_IMAGES",
+      "fullPermissionId": "android.permission.READ_MEDIA_IMAGES",
+      "description": "Allows an application to read image files from external storage. This permission is enforced starting in API level\n Build.VERSION_CODES.TIRAMISU. An app which targets\n Build.VERSION_CODES.TIRAMISU or higher and needs to read image files from\n external storage must hold this permission; READ_EXTERNAL_STORAGE is not required.\n For apps with a targetSdkVersion of Build.VERSION_CODES.S_V2 or lower, the\n READ_EXTERNAL_STORAGE permission is required, instead, to read image files.",
+      "protectionLevel": [
+          "dangerous"
+      ]
+  },
+  {
+      "apiLevel": "33",
+      "permissionId": "READ_MEDIA_VIDEO",
+      "fullPermissionId": "android.permission.READ_MEDIA_VIDEO",
+      "description": "Allows an application to read video files from external storage. This permission is enforced starting in API level\n Build.VERSION_CODES.TIRAMISU. An app which targets\n Build.VERSION_CODES.TIRAMISU or higher and needs to read video files from\n external storage must hold this permission; READ_EXTERNAL_STORAGE is not required.\n For apps with a targetSdkVersion of Build.VERSION_CODES.S_V2 or lower, the\n READ_EXTERNAL_STORAGE permission is required, instead, to read video files.",
+      "protectionLevel": [
+          "dangerous"
+      ]
+  },
+  {
+      "apiLevel": "34",
+      "permissionId": "READ_MEDIA_VISUAL_USER_SELECTED",
+      "fullPermissionId": "android.permission.READ_MEDIA_VISUAL_USER_SELECTED",
+      "description": "Allows an application to read image or video files from external storage that a user has\n selected via the permission prompt photo picker. Apps can check this permission to verify that\n a user has decided to use the photo picker, instead of granting access to\n READ_MEDIA_IMAGES or READ_MEDIA_VIDEO. It does not prevent apps from\n accessing the standard photo picker manually. This permission should be requested alongside\n READ_MEDIA_IMAGES and/or READ_MEDIA_VIDEO, depending on which type of media\n is desired. This permission will be automatically added to an app's manifest if the app requests\n READ_MEDIA_IMAGES, READ_MEDIA_VIDEO, or ACCESS_MEDIA_LOCATION\n regardless of target SDK. If an app does not request this permission, then the grant dialog\n will return `PERMISSION_GRANTED` for READ_MEDIA_IMAGES and/or\n READ_MEDIA_VIDEO, but the app will only have access to the media selected by the\n user. This false grant state will persist until the app goes into the background.",
+      "protectionLevel": [
+          "dangerous"
+      ]
+  },
+  {
+      "apiLevel": "26",
+      "permissionId": "READ_PHONE_NUMBERS",
+      "fullPermissionId": "android.permission.READ_PHONE_NUMBERS",
+      "description": "Allows read access to the device's phone number(s),\n which is exposed to instant applications.",
+      "protectionLevel": [
+          "dangerous"
+      ]
+  },
+  {
+      "apiLevel": "1",
+      "permissionId": "READ_PHONE_STATE",
+      "fullPermissionId": "android.permission.READ_PHONE_STATE",
+      "description": "Allows read only access to phone state, including the current cellular network information,\n the status of any ongoing calls, and a list of any PhoneAccounts\n registered on the device. Note: If both your minSdkVersion and targetSdkVersion values are set to 3 or lower, the system implicitly\n grants your app this permission. If you don't need this permission, be sure your targetSdkVersion is 4 or higher.",
+      "protectionLevel": [
+          "dangerous"
+      ]
+  },
+  {
+      "apiLevel": "1",
+      "permissionId": "READ_SMS",
+      "fullPermissionId": "android.permission.READ_SMS",
+      "description": "Allows an application to read SMS messages. This is a hard restricted permission which cannot be held by an app until\n the installer on record allowlists the permission. For more details see\n PackageInstaller.SessionParams.setWhitelistedRestrictedPermissions(Set).",
+      "protectionLevel": [
+          "dangerous"
+      ]
+  },
+  {
+      "apiLevel": "1",
+      "permissionId": "READ_SYNC_SETTINGS",
+      "fullPermissionId": "android.permission.READ_SYNC_SETTINGS",
+      "description": "Allows applications to read the sync settings.",
+      "protectionLevel": [
+          "normal"
+      ]
+  },
+  {
+      "apiLevel": "1",
+      "permissionId": "READ_SYNC_STATS",
+      "fullPermissionId": "android.permission.READ_SYNC_STATS",
+      "description": "Allows applications to read the sync stats.",
+      "protectionLevel": [
+          "normal"
+      ]
+  },
+  {
+      "apiLevel": "21",
+      "permissionId": "READ_VOICEMAIL",
+      "fullPermissionId": "com.android.voicemail.permission.READ_VOICEMAIL",
+      "description": "Allows an application to read voicemails in the system.",
+      "protectionLevel": [
+          "signature",
+          "privileged",
+          "role"
+      ]
+  },
+  {
+      "apiLevel": "1",
+      "permissionId": "RECEIVE_BOOT_COMPLETED",
+      "fullPermissionId": "android.permission.RECEIVE_BOOT_COMPLETED",
+      "description": "Allows an application to receive the\n Intent.ACTION_BOOT_COMPLETED that is\n broadcast after the system finishes booting.  If you don't\n request this permission, you will not receive the broadcast at\n that time.  Though holding this permission does not have any\n security implications, it can have a negative impact on the\n user experience by increasing the amount of time it takes the\n system to start and allowing applications to have themselves\n running without the user being aware of them.  As such, you must\n explicitly declare your use of this facility to make that visible\n to the user.",
+      "protectionLevel": [
+          "normal"
+      ]
+  },
+  {
+      "apiLevel": "1",
+      "permissionId": "RECEIVE_MMS",
+      "fullPermissionId": "android.permission.RECEIVE_MMS",
+      "description": "Allows an application to monitor incoming MMS messages. This is a hard restricted permission which cannot be held by an app until\n the installer on record allowlists the permission. For more details see\n PackageInstaller.SessionParams.setWhitelistedRestrictedPermissions(Set).",
+      "protectionLevel": [
+          "dangerous"
+      ]
+  },
+  {
+      "apiLevel": "1",
+      "permissionId": "RECEIVE_SMS",
+      "fullPermissionId": "android.permission.RECEIVE_SMS",
+      "description": "Allows an application to receive SMS messages. This is a hard restricted permission which cannot be held by an app until\n the installer on record allowlists the permission. For more details see\n PackageInstaller.SessionParams.setWhitelistedRestrictedPermissions(Set).",
+      "protectionLevel": [
+          "dangerous"
+      ]
+  },
+  {
+      "apiLevel": "1",
+      "permissionId": "RECEIVE_WAP_PUSH",
+      "fullPermissionId": "android.permission.RECEIVE_WAP_PUSH",
+      "description": "Allows an application to receive WAP push messages. This is a hard restricted permission which cannot be held by an app until\n the installer on record allowlists the permission. For more details see\n PackageInstaller.SessionParams.setWhitelistedRestrictedPermissions(Set).",
+      "protectionLevel": [
+          "dangerous"
+      ]
+  },
+  {
+      "apiLevel": "1",
+      "permissionId": "RECORD_AUDIO",
+      "fullPermissionId": "android.permission.RECORD_AUDIO",
+      "description": "Allows an application to record audio.",
+      "protectionLevel": [
+          "dangerous"
+      ]
+  },
+  {
+      "apiLevel": "1",
+      "permissionId": "REORDER_TASKS",
+      "fullPermissionId": "android.permission.REORDER_TASKS",
+      "description": "Allows an application to change the Z-order of tasks.",
+      "protectionLevel": [
+          "normal"
+      ]
+  },
+  {
+      "apiLevel": "34",
+      "permissionId": "REQUEST_COMPANION_PROFILE_GLASSES",
+      "fullPermissionId": "android.permission.REQUEST_COMPANION_PROFILE_GLASSES",
+      "description": "Allows app to request to be associated with a device via\n CompanionDeviceManager\n as \"glasses\"",
+      "protectionLevel": [
+          "normal"
+      ]
+  },
+  {
+      "apiLevel": "31",
+      "permissionId": "REQUEST_COMPANION_PROFILE_WATCH",
+      "fullPermissionId": "android.permission.REQUEST_COMPANION_PROFILE_WATCH",
+      "description": "Allows app to request to be associated with a device via\n CompanionDeviceManager\n as a \"watch\"",
+      "protectionLevel": [
+          "normal"
+      ]
+  },
+  {
+      "apiLevel": "26",
+      "permissionId": "REQUEST_COMPANION_RUN_IN_BACKGROUND",
+      "fullPermissionId": "android.permission.REQUEST_COMPANION_RUN_IN_BACKGROUND",
+      "description": "Allows a companion app to run in the background. This permission implies\n REQUEST_COMPANION_START_FOREGROUND_SERVICES_FROM_BACKGROUND,\n and allows to start a foreground service from the background.\n If an app does not have to run in the background, but only needs to start a foreground\n service from the background, consider using\n REQUEST_COMPANION_START_FOREGROUND_SERVICES_FROM_BACKGROUND,\n which is less powerful.",
+      "protectionLevel": [
+          "normal"
+      ]
+  },
+  {
+      "apiLevel": "31",
+      "permissionId": "REQUEST_COMPANION_START_FOREGROUND_SERVICES_FROM_BACKGROUND",
+      "fullPermissionId": "android.permission.REQUEST_COMPANION_START_FOREGROUND_SERVICES_FROM_BACKGROUND",
+      "description": "Allows a companion app to start a foreground service from the background. See also:",
+      "protectionLevel": [
+          "normal"
+      ]
+  },
+  {
+      "apiLevel": "26",
+      "permissionId": "REQUEST_COMPANION_USE_DATA_IN_BACKGROUND",
+      "fullPermissionId": "android.permission.REQUEST_COMPANION_USE_DATA_IN_BACKGROUND",
+      "description": "Allows a companion app to use data in the background.",
+      "protectionLevel": [
+          "normal"
+      ]
+  },
+  {
+      "apiLevel": "26",
+      "permissionId": "REQUEST_DELETE_PACKAGES",
+      "fullPermissionId": "android.permission.REQUEST_DELETE_PACKAGES",
+      "description": "Allows an application to request deleting packages. Apps\n targeting APIs Build.VERSION_CODES.P or greater must hold this\n permission in order to use Intent.ACTION_UNINSTALL_PACKAGE or\n PackageInstaller.uninstall(VersionedPackage, IntentSender).",
+      "protectionLevel": [
+          "normal"
+      ]
+  },
+  {
+      "apiLevel": "23",
+      "permissionId": "REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+      "fullPermissionId": "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+      "description": "Permission an application must hold in order to use\n Settings.ACTION_REQUEST_IGNORE_BATTERY_OPTIMIZATIONS.",
+      "protectionLevel": [
+          "normal"
+      ]
+  },
+  {
+      "apiLevel": "23",
+      "permissionId": "REQUEST_INSTALL_PACKAGES",
+      "fullPermissionId": "android.permission.REQUEST_INSTALL_PACKAGES",
+      "description": "Allows an application to request installing packages. Apps\n targeting APIs greater than 25 must hold this permission in\n order to use Intent.ACTION_INSTALL_PACKAGE.",
+      "protectionLevel": [
+          "signature"
+      ]
+  },
+  {
+      "apiLevel": "29",
+      "permissionId": "REQUEST_PASSWORD_COMPLEXITY",
+      "fullPermissionId": "android.permission.REQUEST_PASSWORD_COMPLEXITY",
+      "description": "Allows an application to request the screen lock complexity and prompt users to update the\n screen lock to a certain complexity level.",
+      "protectionLevel": [
+          "normal"
+      ]
+  },
+  {
+      "apiLevel": "34",
+      "permissionId": "RUN_USER_INITIATED_JOBS",
+      "fullPermissionId": "android.permission.RUN_USER_INITIATED_JOBS",
+      "description": "Allows applications to use the user-initiated jobs API. For more details\n see JobInfo.Builder.setUserInitiated(boolean).",
+      "protectionLevel": [
+          "normal"
+      ]
+  },
+  {
+      "apiLevel": "31",
+      "permissionId": "SCHEDULE_EXACT_ALARM",
+      "fullPermissionId": "android.permission.SCHEDULE_EXACT_ALARM",
+      "description": "Allows applications to use exact alarm APIs. This is a special access permission that can be revoked by the system or the user.\n It should only be used to enable user-facing features that require exact alarms.\n For more details, please go through the associated\n developer docs. Apps need to target API Build.VERSION_CODES.S or above to be able to\n request this permission. Note that apps targeting lower API levels do not need this\n permission to use exact alarm APIs. Apps that hold this permission and target API\n Build.VERSION_CODES.TIRAMISU and below always stay in the\n WORKING_SET or\n lower standby bucket. If your app relies on exact alarms for core functionality, it can instead request\n USE_EXACT_ALARM once it targets API\n Build.VERSION_CODES.TIRAMISU. All apps using exact alarms for secondary\n features (which should still be user facing) should continue using this permission.",
+      "protectionLevel": [
+          "signature",
+          "privileged",
+          "appop"
+      ]
+  },
+  {
+      "apiLevel": "1",
+      "permissionId": "SEND_SMS",
+      "fullPermissionId": "android.permission.SEND_SMS",
+      "description": "Allows an application to send SMS messages. This is a hard restricted permission which cannot be held by an app until\n the installer on record allowlists the permission. For more details see\n PackageInstaller.SessionParams.setWhitelistedRestrictedPermissions(Set).",
+      "protectionLevel": [
+          "dangerous"
+      ]
+  },
+  {
+      "apiLevel": "9",
+      "permissionId": "SET_ALARM",
+      "fullPermissionId": "com.android.alarm.permission.SET_ALARM",
+      "description": "Allows an application to broadcast an Intent to set an alarm for the user.",
+      "protectionLevel": [
+          "normal"
+      ]
+  },
+  {
+      "apiLevel": "1",
+      "permissionId": "SET_WALLPAPER",
+      "fullPermissionId": "android.permission.SET_WALLPAPER",
+      "description": "Allows applications to set the wallpaper.",
+      "protectionLevel": [
+          "normal"
+      ]
+  },
+  {
+      "apiLevel": "1",
+      "permissionId": "SET_WALLPAPER_HINTS",
+      "fullPermissionId": "android.permission.SET_WALLPAPER_HINTS",
+      "description": "Allows applications to set the wallpaper hints.",
+      "protectionLevel": [
+          "normal"
+      ]
+  },
+  {
+      "apiLevel": "29",
+      "permissionId": "SMS_FINANCIAL_TRANSACTIONS",
+      "fullPermissionId": "android.permission.SMS_FINANCIAL_TRANSACTIONS",
+      "description": "This constant was deprecated\n      in API level 31.\n    The API that used this permission is no longer functional. Allows financial apps to read filtered sms messages.\n Protection level: signature|appop",
+      "protectionLevel": []
+  },
+  {
+      "apiLevel": "33",
+      "permissionId": "START_VIEW_APP_FEATURES",
+      "fullPermissionId": "android.permission.START_VIEW_APP_FEATURES",
+      "description": "Allows the holder to start the screen with a list of app features.",
+      "protectionLevel": [
+          "signature",
+          "installer"
+      ]
+  },
+  {
+      "apiLevel": "29",
+      "permissionId": "START_VIEW_PERMISSION_USAGE",
+      "fullPermissionId": "android.permission.START_VIEW_PERMISSION_USAGE",
+      "description": "Allows the holder to start the permission usage screen for an app.",
+      "protectionLevel": [
+          "signature",
+          "installer"
+      ]
+  },
+  {
+      "apiLevel": "33",
+      "permissionId": "SUBSCRIBE_TO_KEYGUARD_LOCKED_STATE",
+      "fullPermissionId": "android.permission.SUBSCRIBE_TO_KEYGUARD_LOCKED_STATE",
+      "description": "Allows an application to subscribe to device locked and keyguard locked (i.e., showing)\n state. Intended for use by ROLE_ASSISTANT, VDM, and signature / privileged apps only.",
+      "protectionLevel": [
+          "signature",
+          "privileged",
+          "module",
+          "role"
+      ]
+  },
+  {
+      "apiLevel": "1",
+      "permissionId": "SYSTEM_ALERT_WINDOW",
+      "fullPermissionId": "android.permission.SYSTEM_ALERT_WINDOW",
+      "description": "Allows an app to create windows using the type\n WindowManager.LayoutParams.TYPE_APPLICATION_OVERLAY,\n shown on top of all other apps.  Very few apps\n should use this permission; these windows are intended for\n system-level interaction with the user. Note: If the app\n targets API level 23 or higher, the app user must explicitly grant\n this permission to the app through a permission management screen. The app requests\n the user's approval by sending an intent with action\n Settings.ACTION_MANAGE_OVERLAY_PERMISSION.\n The app can check whether it has this authorization by calling\n Settings.canDrawOverlays().",
+      "protectionLevel": [
+          "signature",
+          "setup",
+          "appop",
+          "installer",
+          "pre23",
+          "development"
+      ]
+  },
+  {
+      "apiLevel": "19",
+      "permissionId": "TRANSMIT_IR",
+      "fullPermissionId": "android.permission.TRANSMIT_IR",
+      "description": "Allows using the device's IR transmitter, if available.",
+      "protectionLevel": [
+          "normal"
+      ]
+  },
+  {
+      "apiLevel": "31",
+      "permissionId": "UPDATE_PACKAGES_WITHOUT_USER_ACTION",
+      "fullPermissionId": "android.permission.UPDATE_PACKAGES_WITHOUT_USER_ACTION",
+      "description": "Allows an application to indicate via\n PackageInstaller.SessionParams.setRequireUserAction(int)\n that user action should not be required for an app update.",
+      "protectionLevel": [
+          "normal"
+      ]
+  },
+  {
+      "apiLevel": "28",
+      "permissionId": "USE_BIOMETRIC",
+      "fullPermissionId": "android.permission.USE_BIOMETRIC",
+      "description": "Allows an app to use device supported biometric modalities.",
+      "protectionLevel": [
+          "normal"
+      ]
+  },
+  {
+      "apiLevel": "23",
+      "permissionId": "USE_FINGERPRINT",
+      "fullPermissionId": "android.permission.USE_FINGERPRINT",
+      "description": "This constant was deprecated\n      in API level 28.\n    Applications should request USE_BIOMETRIC instead Allows an app to use fingerprint hardware.",
+      "protectionLevel": [
+          "normal"
+      ]
+  },
+  {
+      "apiLevel": "29",
+      "permissionId": "USE_FULL_SCREEN_INTENT",
+      "fullPermissionId": "android.permission.USE_FULL_SCREEN_INTENT",
+      "description": "Required for apps targeting Build.VERSION_CODES.Q that want to use\n notification full screen\n intents.",
+      "protectionLevel": [
+          "normal"
+      ]
+  },
+  {
+      "apiLevel": "31",
+      "permissionId": "USE_ICC_AUTH_WITH_DEVICE_IDENTIFIER",
+      "fullPermissionId": "android.permission.USE_ICC_AUTH_WITH_DEVICE_IDENTIFIER",
+      "description": "Allows to read device identifiers and use ICC based authentication like EAP-AKA.\n Often required in authentication to access the carrier's server and manage services\n of the subscriber.",
+      "protectionLevel": [
+          "signature",
+          "appop"
+      ]
+  },
+  {
+      "apiLevel": "9",
+      "permissionId": "USE_SIP",
+      "fullPermissionId": "android.permission.USE_SIP",
+      "description": "Allows an application to use SIP service.",
+      "protectionLevel": [
+          "dangerous"
+      ]
+  },
+  {
+      "apiLevel": "31",
+      "permissionId": "UWB_RANGING",
+      "fullPermissionId": "android.permission.UWB_RANGING",
+      "description": "Required to be able to range to devices using ultra-wideband.",
+      "protectionLevel": [
+          "dangerous"
+      ]
+  },
+  {
+      "apiLevel": "1",
+      "permissionId": "VIBRATE",
+      "fullPermissionId": "android.permission.VIBRATE",
+      "description": "Allows access to the vibrator.",
+      "protectionLevel": [
+          "normal"
+      ]
+  },
+  {
+      "apiLevel": "1",
+      "permissionId": "WAKE_LOCK",
+      "fullPermissionId": "android.permission.WAKE_LOCK",
+      "description": "Allows using PowerManager WakeLocks to keep processor from sleeping or screen\n from dimming.",
+      "protectionLevel": [
+          "normal"
+      ]
+  },
+  {
+      "apiLevel": "1",
+      "permissionId": "WRITE_CALENDAR",
+      "fullPermissionId": "android.permission.WRITE_CALENDAR",
+      "description": "Allows an application to write the user's calendar data.",
+      "protectionLevel": [
+          "dangerous"
+      ]
+  },
+  {
+      "apiLevel": "16",
+      "permissionId": "WRITE_CALL_LOG",
+      "fullPermissionId": "android.permission.WRITE_CALL_LOG",
+      "description": "Allows an application to write and read the user's call log data. Note: If your app uses the\n WRITE_CONTACTS permission and both your minSdkVersion and targetSdkVersion values are set to 15 or lower, the system implicitly\n grants your app this permission. If you don't need this permission, be sure your targetSdkVersion is 16 or higher. This is a hard restricted permission which cannot be held by an app until\n the installer on record allowlists the permission. For more details see\n PackageInstaller.SessionParams.setWhitelistedRestrictedPermissions(Set).",
+      "protectionLevel": [
+          "dangerous"
+      ]
+  },
+  {
+      "apiLevel": "1",
+      "permissionId": "WRITE_CONTACTS",
+      "fullPermissionId": "android.permission.WRITE_CONTACTS",
+      "description": "Allows an application to write the user's contacts data.",
+      "protectionLevel": [
+          "dangerous"
+      ]
+  },
+  {
+      "apiLevel": "4",
+      "permissionId": "WRITE_EXTERNAL_STORAGE",
+      "fullPermissionId": "android.permission.WRITE_EXTERNAL_STORAGE",
+      "description": "Allows an application to write to external storage. Note: If your app targets Build.VERSION_CODES.R or\n higher, this permission has no effect. If your app is on a device that runs API level 19 or higher, you don't need to declare\n this permission to read and write files in your application-specific directories returned\n by Context.getExternalFilesDir(String) and\n Context.getExternalCacheDir(). Learn more about how to\n modify media\n files that your app doesn't own, and how to\n modify non-media files\n that your app doesn't own. If your app is a file manager and needs broad access to external storage files, then\n the system must place your app on an allowlist so that you can successfully request the\n MANAGE_EXTERNAL_STORAGE permission.\n Learn more about the appropriate use cases for\n minSdkVersion and targetSdkVersion values are set to 3 or lower, the system implicitly\n grants your app this permission. If you don't need this permission, be sure your targetSdkVersion is 4 or higher.",
+      "protectionLevel": [
+          "dangerous"
+      ]
+  },
+  {
+      "apiLevel": "1",
+      "permissionId": "WRITE_SETTINGS",
+      "fullPermissionId": "android.permission.WRITE_SETTINGS",
+      "description": "Allows an application to read or write the system settings. Note: If the app targets API level 23\n or higher, the app user\n must explicitly grant this permission to the app through a permission management screen.\n The app requests the user's approval by sending an intent with action\n Settings.ACTION_MANAGE_WRITE_SETTINGS. The app\n can check whether it has this authorization by calling Settings.System.canWrite().",
+      "protectionLevel": [
+          "signature",
+          "preinstalled",
+          "appop",
+          "pre23"
+      ]
+  },
+  {
+      "apiLevel": "1",
+      "permissionId": "WRITE_SYNC_SETTINGS",
+      "fullPermissionId": "android.permission.WRITE_SYNC_SETTINGS",
+      "description": "Allows applications to write the sync settings.",
+      "protectionLevel": [
+          "normal"
+      ]
+  },
+  {
+      "apiLevel": "21",
+      "permissionId": "WRITE_VOICEMAIL",
+      "fullPermissionId": "com.android.voicemail.permission.WRITE_VOICEMAIL",
+      "description": "Allows an application to modify and remove existing voicemails in the system.",
+      "protectionLevel": [
+          "signature",
+          "privileged",
+          "role"
+      ]
+  }
+]
