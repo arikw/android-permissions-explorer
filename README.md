@@ -1,6 +1,6 @@
 # Android Permissions Explorer
 
-Android Permissions Explorer is a tool designed to analyze and display Android application permissions. It simplifies the process of exploring complex permission structures and helps developers understand how permissions are used across their projects.
+Android Permissions Explorer is a tool for displaying information about all the permissions supported by the Android OS, offering detailed listings and a user-friendly interface for exploring and filtering these permissions.
 
 ## Live Demo 🚀
 
