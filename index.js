@@ -19,7 +19,7 @@ function createTableRow(permission) {
 
   // Protection level cell (display multiple levels if available)
   const protectionCell = document.createElement('td');
-  protectionCell.textContent = permission.protectionLevel.join(', ');
+  protectionCell.textContent = permission.protectionLevel?.join(', ');
   row.appendChild(protectionCell);
 
   // Description cell with proper newline handling
@@ -51,7 +51,7 @@ function displayPermissions(data) {
 function populateProtectionOptions(data) {
   const protectionLevels = new Set();
   data.forEach(permission => {
-    permission.protectionLevel.forEach(level => {
+    permission.protectionLevel?.forEach(level => {
       protectionLevels.add(level);
     });
   });
@@ -75,7 +75,7 @@ function filterPermissions() {
   const filteredData = permissionsData.filter(permission => {
     const matchesName = permission.permissionId.toLowerCase().includes(searchTerm) ||
                         permission.fullPermissionId.toLowerCase().includes(searchTerm);
-    const matchesProtection = protectionFilter === "" || permission.protectionLevel.includes(protectionFilter);
+    const matchesProtection = protectionFilter === "" || permission.protectionLevel?.includes(protectionFilter);
     return matchesName && matchesProtection;
   });
   displayPermissions(filteredData);
